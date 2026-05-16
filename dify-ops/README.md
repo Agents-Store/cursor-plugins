@@ -1,0 +1,13 @@
+# dify-ops (Cursor plugin)
+
+Dify self-hosted update operations plugin. Pull upstream changes, merge into local dev branch, sync .env variables, detect Docker project names, and rebuild containers for Dify Docker deployments.
+
+## Install
+
+Drop this directory into `~/.cursor/plugins/local/`, or publish via [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
+
+## Source
+
+Auto-generated from the canonical Claude Code plugin. Do not edit directly.
+
+Canonical: https://github.com/agents-store/claude-public-plugins

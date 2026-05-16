@@ -1,0 +1,13 @@
+# postgresql-external-dev (Cursor plugin)
+
+PostgreSQL schema design for external database connections. Compatible SQL patterns for NocoDB and NocoBase — table creation, column types, relations, indexes, and anti-patterns.
+
+## Install
+
+Drop this directory into `~/.cursor/plugins/local/`, or publish via [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
+
+## Source
+
+Auto-generated from the canonical Claude Code plugin. Do not edit directly.
+
+Canonical: https://github.com/agents-store/claude-public-plugins
