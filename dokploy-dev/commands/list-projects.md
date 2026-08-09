@@ -1,5 +1,10 @@
 ---
 description: List all Dokploy projects
+allowed-tools:
+  - Read
+  - Bash
+  - Skill
+  - Agent
 ---
 
 # List Projects

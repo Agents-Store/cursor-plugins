@@ -1,6 +1,11 @@
 ---
 description: List all applications and services in a Dokploy project
 argument-hint: <project-name-or-id>
+allowed-tools:
+  - Read
+  - Bash
+  - Skill
+  - Agent
 ---
 
 # List Applications

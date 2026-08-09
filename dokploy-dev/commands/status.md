@@ -1,6 +1,11 @@
 ---
 description: Check Dokploy application or deployment status
 argument-hint: <app-name-or-id> [--project <project>]
+allowed-tools:
+  - Read
+  - Bash
+  - Skill
+  - Agent
 ---
 
 # Check Status
