@@ -1,10 +1,8 @@
----
-description: Design a NocoBase collection schema
-argument-hint: <collection-name> [--fields <field1:type,field2:type>]
-allowed-tools:
-  - mcp__nocobase__collection_list
-  - mcp__nocobase__collection_get
----
+# design-collection
+
+Design a NocoBase collection schema
+
+Usage: `/design-collection <collection-name> [--fields <field1:type,field2:type>]`
 
 # Design Collection
 

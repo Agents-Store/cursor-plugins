@@ -1,13 +1,8 @@
----
-description: Connect a bank account — verify MCP server connectivity
-argument-hint: <bank-name>
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# connect-bank
+
+Connect a bank account — verify MCP server connectivity
+
+Usage: `/connect-bank <bank-name>`
 
 # Connect Bank
 

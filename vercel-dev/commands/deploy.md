@@ -1,6 +1,6 @@
----
-description: Deploy the current project to Vercel. Pass "prod" or "production" as argument to deploy to production. Default is to ask the user which target (production or preview).
----
+# deploy
+
+Deploy the current project to Vercel. Pass "prod" or "production" as argument to deploy to production. Default is to ask the user which target (production or preview).
 
 # Deploy to Vercel
 

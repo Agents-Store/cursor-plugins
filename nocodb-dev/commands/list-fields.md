@@ -1,12 +1,8 @@
----
-description: List all fields on a NocoDB table with their types
-argument-hint:
-  - table-name-or-id
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
----
+# list-fields
+
+List all fields on a NocoDB table with their types
+
+Usage: `/list-fields table-name-or-id`
 
 # List Fields
 

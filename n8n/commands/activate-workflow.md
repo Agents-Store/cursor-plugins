@@ -1,11 +1,8 @@
----
-description: Activate or deactivate an n8n workflow
-argument-hint: <workflow> [--off]
-allowed-tools:
-  - mcp__n8n__activate_workflow
-  - mcp__n8n__deactivate_workflow
-  - mcp__n8n__list_workflows
----
+# activate-workflow
+
+Activate or deactivate an n8n workflow
+
+Usage: `/activate-workflow <workflow> [--off]`
 
 # Activate Workflow
 

@@ -1,13 +1,8 @@
----
-description: List and search transaction history across all accounts
-argument-hint: <days> [category] [bank]
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# transactions
+
+List and search transaction history across all accounts
+
+Usage: `/transactions <days> [category] [bank]`
 
 # Transactions
 

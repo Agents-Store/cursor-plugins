@@ -1,11 +1,13 @@
 {
   "name": "stack-directus-nextjs-dev",
+  "displayName": "Stack Directus Nextjs Dev",
   "version": "1.0.3",
   "description": "Directus + Next.js stack dev plugin. Integrates Directus headless CMS with Next.js App Router for content-driven applications.",
   "author": {
     "name": "Agents Store",
     "url": "https://github.com/agents-store"
   },
+  "license": "MIT",
   "keywords": [
     "stack",
     "directus-nextjs",
@@ -15,5 +17,6 @@
     "nextjs",
     "headless-cms",
     "app-router"
-  ]
+  ],
+  "skills": "./skills/"
 }

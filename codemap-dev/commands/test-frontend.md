@@ -1,8 +1,8 @@
----
-description: Test a running app's frontend — navigate pages, check UI, find errors, generate report
-argument-hint: '[url] — e.g. localhost:3000, http://localhost:8080/admin'
-allowed-tools: '[Read, Grep, Glob, Write, Bash, Agent, Skill]'
----
+# test-frontend
+
+Test a running app's frontend — navigate pages, check UI, find errors, generate report
+
+Usage: `/test-frontend [url] — e.g. localhost:3000, http://localhost:8080/admin`
 
 # Frontend Testing
 
@@ -11,7 +11,7 @@ Test the frontend of a running application via Playwright MCP. Target: $ARGUMENT
 ## Instructions
 
 1. Read the primary skill:
-   - `${CLAUDE_PLUGIN_ROOT}/skills/frontend-test/SKILL.md` — frontend testing methodology and report format
+   - `./skills/frontend-test/SKILL.md` — frontend testing methodology and report format
 
 2. Parse `$ARGUMENTS` for the target URL:
    - If a URL is provided (e.g., `localhost:3000`, `http://localhost:8080/admin`) → pass it to the agent

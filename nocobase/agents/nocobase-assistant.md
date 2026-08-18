@@ -12,9 +12,7 @@ description: |
   <example>
   user: "Set up a workflow that sends notifications on new orders"
   </example>
-model: sonnet
-color: green
-tools: mcp__nocobase__*
+model: claude-sonnet-5
 ---
 
 # NocoBase Assistant

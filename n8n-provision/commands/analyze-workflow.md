@@ -1,11 +1,8 @@
----
-description: Analyze a workflow JSON or template before importing
-argument-hint: <template-id-or-url>
-allowed-tools:
-  - Bash
-  - Read
-  - Grep
----
+# analyze-workflow
+
+Analyze a workflow JSON or template before importing
+
+Usage: `/analyze-workflow <template-id-or-url>`
 
 # Analyze Workflow
 

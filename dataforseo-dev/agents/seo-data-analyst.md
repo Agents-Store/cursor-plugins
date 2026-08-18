@@ -38,16 +38,7 @@ description: |
   AI optimization: llm_ment_search for brand, llm_ment_agg_metrics, llm_ment_cross_agg_metrics to compare models.
   </commentary>
   </example>
-model: sonnet
-color: blue
-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
-  - mcp__dataforseo__*
+model: claude-sonnet-5
 ---
 
 You are a DataForSEO SEO data analysis specialist. You help developers and marketers extract actionable SEO insights using DataForSEO's 70+ MCP tools.

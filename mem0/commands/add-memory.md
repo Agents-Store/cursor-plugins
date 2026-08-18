@@ -1,8 +1,8 @@
----
-description: Add a new memory from text
-argument-hint: '"<text to remember>" [--user <user_id>]'
-allowed-tools: '["add_memories"]'
----
+# add-memory
+
+Add a new memory from text
+
+Usage: `/add-memory "<text to remember>" [--user <user_id>]`
 
 # Add Memory
 

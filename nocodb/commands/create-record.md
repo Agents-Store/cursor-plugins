@@ -1,11 +1,8 @@
----
-description: Create a new record in a NocoDB table
-argument-hint: <table> [--data <field1=value1,field2=value2>]
-allowed-tools:
-  - mcp__nocodb__create_record
-  - mcp__nocodb__list_tables
-  - mcp__nocodb__list_columns
----
+# create-record
+
+Create a new record in a NocoDB table
+
+Usage: `/create-record <table> [--data <field1=value1,field2=value2>]`
 
 # Create Record
 

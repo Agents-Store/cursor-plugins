@@ -1,10 +1,12 @@
 {
   "name": "nextjs-dev",
+  "displayName": "Nextjs Dev",
   "version": "1.4.1",
   "description": "Next.js development plugin. Knowledge base for building modern Next.js 16 applications with App Router, Server/Client Components, data fetching, Cache Components, performance optimization, and the next-devtools-mcp toolchain.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "nextjs",
     "next.js",
@@ -13,6 +15,11 @@
     "server-components",
     "typescript",
     "dev",
-    "agents-store"
-  ]
+    "agents-store",
+    "testing",
+    "security",
+    "authentication",
+    "forms"
+  ],
+  "skills": "./skills/"
 }

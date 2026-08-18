@@ -1,12 +1,8 @@
----
-description: Generate a professional invoice (PDF)
-argument-hint: <invoice-number> [--company <name>] [--client <name>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-invoice
+
+Generate a professional invoice (PDF)
+
+Usage: `/generate-invoice <invoice-number> [--company <name>] [--client <name>]`
 
 # Generate Invoice
 

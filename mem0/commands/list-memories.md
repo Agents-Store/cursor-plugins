@@ -1,8 +1,8 @@
----
-description: List all stored memories with optional pagination
-argument-hint: '[--user <user_id>] [--limit <n>] [--page <n>]'
-allowed-tools: '["get_all_memories"]'
----
+# list-memories
+
+List all stored memories with optional pagination
+
+Usage: `/list-memories [--user <user_id>] [--limit <n>] [--page <n>]`
 
 # List Memories
 

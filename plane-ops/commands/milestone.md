@@ -1,7 +1,8 @@
----
-description: Manage Plane milestones — create, list, add items, update, delete
-argument-hint: <action> <project> [args...]
----
+# milestone
+
+Manage Plane milestones — create, list, add items, update, delete
+
+Usage: `/milestone <action> <project> [args...]`
 
 # Milestone
 

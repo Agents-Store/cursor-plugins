@@ -1,8 +1,6 @@
----
-description: List available n8n credentials
-allowed-tools:
-  - mcp__n8n__list_credentials
----
+# list-credentials
+
+List available n8n credentials
 
 # List Credentials
 

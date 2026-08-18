@@ -1,14 +1,8 @@
----
-description: Create or update a budget threshold with alerts
-argument-hint: <category> <amount> [period]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# set-budget
+
+Create or update a budget threshold with alerts
+
+Usage: `/set-budget <category> <amount> [period]`
 
 # Set Budget
 

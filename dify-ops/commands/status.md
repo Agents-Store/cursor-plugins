@@ -1,11 +1,6 @@
----
-description: Show current Dify instance status — git branch, version, container health, .env sync state
-allowed-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
----
+# status
+
+Show current Dify instance status — git branch, version, container health, .env sync state
 
 # Dify Status
 

@@ -1,8 +1,8 @@
----
-description: Search attached files via vector search
-argument-hint: '"<query>" --user <user_id> [--file <filename>] [--limit <n>]'
-allowed-tools: '["get_memory_files"]'
----
+# search-files
+
+Search attached files via vector search
+
+Usage: `/search-files "<query>" --user <user_id> [--file <filename>] [--limit <n>]`
 
 # Search Files
 

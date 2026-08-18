@@ -1,15 +1,8 @@
----
-description: Manage salary registries — create, check status, list types
-argument-hint: <create|status|types> [registry-id]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
-  - Grep
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# salary-registry
+
+Manage salary registries — create, check status, list types
+
+Usage: `/salary-registry <create|status|types> [registry-id]`
 
 # Salary Registry
 

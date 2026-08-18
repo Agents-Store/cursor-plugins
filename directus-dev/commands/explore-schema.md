@@ -1,8 +1,8 @@
----
-description: Explore the Directus schema — list all collections or get detailed field info for a specific collection
-argument-hint:
-  - collection-name
----
+# explore-schema
+
+Explore the Directus schema — list all collections or get detailed field info for a specific collection
+
+Usage: `/explore-schema collection-name`
 
 # Explore Schema
 

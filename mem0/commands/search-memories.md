@@ -1,8 +1,8 @@
----
-description: Search memories by semantic query
-argument-hint: '"<query>" [--user <user_id>] [--limit <n>]'
-allowed-tools: '["search_memories"]'
----
+# search-memories
+
+Search memories by semantic query
+
+Usage: `/search-memories "<query>" [--user <user_id>] [--limit <n>]`
 
 # Search Memories
 

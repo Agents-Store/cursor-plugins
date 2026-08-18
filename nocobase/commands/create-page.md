@@ -1,13 +1,8 @@
----
-description: Create a NocoBase page with blocks
-argument-hint: <page-title> [--collection <name>] [--block <table|form|details|kanban>]
-allowed-tools:
-  - mcp__nocobase__page_create
-  - mcp__nocobase__table_add
-  - mcp__nocobase__column_add
-  - mcp__nocobase__action_add
-  - mcp__nocobase__menu_create_group
----
+# create-page
+
+Create a NocoBase page with blocks
+
+Usage: `/create-page <page-title> [--collection <name>] [--block <table|form|details|kanban>]`
 
 # Create Page
 

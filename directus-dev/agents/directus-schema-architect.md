@@ -29,8 +29,7 @@ description: |
   Schema refactoring requires understanding current state and planning improvements.
   </commentary>
   </example>
-model: sonnet
-color: cyan
+model: claude-sonnet-5
 ---
 
 # Directus Schema Architect

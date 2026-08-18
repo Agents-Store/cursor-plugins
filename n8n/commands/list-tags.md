@@ -1,8 +1,6 @@
----
-description: List workflow tags
-allowed-tools:
-  - mcp__n8n__list_tags
----
+# list-tags
+
+List workflow tags
 
 # List Tags
 

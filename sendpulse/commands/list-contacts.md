@@ -1,9 +1,8 @@
----
-description: List CRM contacts
-argument-hint:
-  - '--limit <number>'
-allowed-tools: mcp__sendpulse__crm_contacts_list
----
+# list-contacts
+
+List CRM contacts
+
+Usage: `/list-contacts --limit <number>`
 
 # List Contacts
 

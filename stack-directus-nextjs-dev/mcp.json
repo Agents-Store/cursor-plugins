@@ -1,10 +1,9 @@
 {
   "mcpServers": {
     "directus": {
-      "type": "http",
-      "url": "${NEXT_PUBLIC_DIRECTUS_URL}/mcp",
+      "url": "${env:NEXT_PUBLIC_DIRECTUS_URL}/mcp",
       "headers": {
-        "Authorization": "Bearer ${DIRECTUS_ADMIN_TOKEN}"
+        "Authorization": "Bearer ${env:DIRECTUS_ADMIN_TOKEN}"
       }
     }
   }

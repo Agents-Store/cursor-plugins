@@ -1,8 +1,8 @@
----
-description: Send a chatbot campaign on a specific channel
-argument-hint: <channel> <bot-id> [message]
-allowed-tools: mcp__sendpulse__chatbots_bots_list, mcp__sendpulse__chatbots_bots_campaigns_t_send, mcp__sendpulse__chatbots_bots_campaigns_m_send, mcp__sendpulse__chatbots_bots_campaigns_wa_send, mcp__sendpulse__chatbots_bots_campaigns_i_send, mcp__sendpulse__chatbots_bots_campaigns_v_send
----
+# send-campaign
+
+Send a chatbot campaign on a specific channel
+
+Usage: `/send-campaign <channel> <bot-id> [message]`
 
 # Send Campaign
 

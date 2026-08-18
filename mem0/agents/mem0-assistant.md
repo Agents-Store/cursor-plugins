@@ -12,9 +12,7 @@ description: |
   <example>
   user: "Show me the history of changes for this memory"
   </example>
-model: sonnet
-color: green
-tools: mcp__mem0__*
+model: claude-sonnet-5
 ---
 
 # Mem0 Assistant

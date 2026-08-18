@@ -1,11 +1,13 @@
 {
   "name": "stack-flask-sqlalchemy-dev",
+  "displayName": "Stack Flask Sqlalchemy Dev",
   "version": "1.0.0",
   "description": "Flask + SQLAlchemy stack dev plugin for Agents Store. Integration patterns for app factory wiring, blueprint-model coordination, Flask-Login + SQLAlchemy auth, Jinja2 + query data, and full-feature recipes.",
   "author": {
     "name": "Agents Store",
     "url": "https://github.com/agents-store"
   },
+  "license": "MIT",
   "keywords": [
     "stack",
     "flask-sqlalchemy",
@@ -14,5 +16,6 @@
     "flask",
     "sqlalchemy",
     "python"
-  ]
+  ],
+  "skills": "./skills/"
 }

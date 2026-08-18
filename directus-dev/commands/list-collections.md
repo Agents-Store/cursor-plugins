@@ -1,6 +1,6 @@
----
-description: List all collections in the Directus instance
----
+# list-collections
+
+List all collections in the Directus instance
 
 # List Collections
 

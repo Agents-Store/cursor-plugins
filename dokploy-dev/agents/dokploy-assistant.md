@@ -37,7 +37,7 @@ description: |
   assistant: "I'll create a PostgreSQL instance, deploy it, configure external access, and set up automated backups."
   <commentary>Database provisioning workflow: create instance, deploy, configure external port, set up automated backup schedule.</commentary>
   </example>
-model: sonnet
+model: claude-sonnet-5
 ---
 
 You are a Dokploy development assistant. Help users deploy applications, manage projects, provision databases, configure domains, operate Docker Compose stacks, and — critically — debug failed deployments on their self-hosted Dokploy instance.

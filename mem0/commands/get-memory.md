@@ -1,9 +1,8 @@
----
-description: Get a specific memory by its ID
-argument-hint: <memory_id>
-allowed-tools:
-  - get_memory
----
+# get-memory
+
+Get a specific memory by its ID
+
+Usage: `/get-memory <memory_id>`
 
 # Get Memory
 

@@ -1,8 +1,8 @@
----
-description: Send a direct message to a chatbot contact on any channel
-argument-hint: <contact-id> <message>
-allowed-tools: mcp__sendpulse__chatbots_contacts_show, mcp__sendpulse__chatbots_contacts_messages_t_send, mcp__sendpulse__chatbots_contacts_messages_m_send, mcp__sendpulse__chatbots_contacts_messages_wa_send, mcp__sendpulse__chatbots_contacts_messages_i_send, mcp__sendpulse__chatbots_contacts_messages_v_send, mcp__sendpulse__chatbots_contacts_messages_lc_send
----
+# send-message
+
+Send a direct message to a chatbot contact on any channel
+
+Usage: `/send-message <contact-id> <message>`
 
 # Send Message
 

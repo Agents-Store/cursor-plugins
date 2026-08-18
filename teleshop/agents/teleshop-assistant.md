@@ -1,8 +1,7 @@
 ---
 name: teleshop-assistant
 description: Interactive Teleshop store management assistant. Helps merchants manage products, orders, categories, attributes, customers, webhooks, and addons for their Telegram store.
-model: sonnet
-tools: mcp__teleshop__*
+model: claude-sonnet-5
 ---
 
 # Teleshop Assistant

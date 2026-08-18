@@ -1,9 +1,8 @@
----
-description: Create a new n8n workflow
-argument-hint: <name> [--trigger <webhook|schedule|manual>]
-allowed-tools:
-  - mcp__n8n__create_workflow
----
+# create-workflow
+
+Create a new n8n workflow
+
+Usage: `/create-workflow <name> [--trigger <webhook|schedule|manual>]`
 
 # Create Workflow
 

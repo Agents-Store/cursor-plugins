@@ -1,10 +1,8 @@
----
-description: Delete a memory by its ID
-argument-hint: <memory_id>
-allowed-tools:
-  - delete_memory
-  - get_memory
----
+# delete-memory
+
+Delete a memory by its ID
+
+Usage: `/delete-memory <memory_id>`
 
 # Delete Memory
 

@@ -1,6 +1,6 @@
----
-description: Scaffold project files from macstack.json (prototype → stack plugins → dev plugins)
----
+# scaffold
+
+Scaffold project files from macstack.json (prototype → stack plugins → dev plugins)
 
 Use the macstack-dev:scaffold-project skill on the current project's macstack.json.
 Follow the mandatory source order: 1) prototype (github or local absolute path),

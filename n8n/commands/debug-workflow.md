@@ -1,11 +1,8 @@
----
-description: Debug a failed n8n workflow execution
-argument-hint: <workflow-id> [--execution <execution-id>]
-allowed-tools:
-  - mcp__n8n__list_executions
-  - mcp__n8n__get_execution
-  - mcp__n8n__get_workflow
----
+# debug-workflow
+
+Debug a failed n8n workflow execution
+
+Usage: `/debug-workflow <workflow-id> [--execution <execution-id>]`
 
 # Debug Workflow
 

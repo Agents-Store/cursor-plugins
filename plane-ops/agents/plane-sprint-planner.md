@@ -12,8 +12,7 @@ description: |
   <example>
   user: "What should we include in the next sprint based on our velocity?"
   </example>
-model: sonnet
-color: cyan
+model: claude-sonnet-5
 ---
 
 # Plane Sprint Planner

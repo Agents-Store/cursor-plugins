@@ -1,11 +1,8 @@
----
-description: Run keyword research for a topic or domain using DataForSEO
-argument-hint: <keyword or domain>
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
----
+# keyword-research
+
+Run keyword research for a topic or domain using DataForSEO
+
+Usage: `/keyword-research <keyword or domain>`
 
 # Keyword Research
 

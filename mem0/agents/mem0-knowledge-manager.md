@@ -12,9 +12,7 @@ description: |
   <example>
   user: "Audit and clean up outdated memories"
   </example>
-model: sonnet
-color: cyan
-tools: mcp__mem0__*
+model: claude-sonnet-5
 ---
 
 # Mem0 Knowledge Manager

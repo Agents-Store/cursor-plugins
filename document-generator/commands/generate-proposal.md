@@ -1,12 +1,8 @@
----
-description: Generate a professional business proposal (DOCX/PDF)
-argument-hint: <title> [--format <docx|pdf>] [--company <name>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-proposal
+
+Generate a professional business proposal (DOCX/PDF)
+
+Usage: `/generate-proposal <title> [--format <docx|pdf>] [--company <name>]`
 
 # Generate Proposal
 

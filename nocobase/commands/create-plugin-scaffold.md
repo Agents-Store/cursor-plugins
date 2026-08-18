@@ -1,8 +1,8 @@
----
-description: Generate NocoBase plugin scaffold structure
-argument-hint: <plugin-name> [--type <server|client|full>]
-allowed-tools: []
----
+# create-plugin-scaffold
+
+Generate NocoBase plugin scaffold structure
+
+Usage: `/create-plugin-scaffold <plugin-name> [--type <server|client|full>]`
 
 # Create Plugin Scaffold
 

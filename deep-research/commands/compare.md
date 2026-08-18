@@ -1,7 +1,8 @@
----
-description: Compare multiple products, companies, or technologies
-argument-hint: <item1> vs <item2> [vs <item3>...] [--criteria <criteria>]
----
+# compare
+
+Compare multiple products, companies, or technologies
+
+Usage: `/compare <item1> vs <item2> [vs <item3>...] [--criteria <criteria>]`
 
 # Compare
 

@@ -1,11 +1,8 @@
----
-description: Create a new view for a NocoDB table
-argument-hint: <table-name> <view-type> [title]
-allowed-tools:
-  - mcp__nocodb__getTablesList
-  - mcp__nocodb__getTableSchema
-  - mcp__nocodb__queryRecords
----
+# create-view
+
+Create a new view for a NocoDB table
+
+Usage: `/create-view <table-name> <view-type> [title]`
 
 # Create View
 

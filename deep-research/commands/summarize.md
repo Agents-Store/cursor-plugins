@@ -1,7 +1,8 @@
----
-description: Summarize a topic or URL content
-argument-hint: <topic-or-url>
----
+# summarize
+
+Summarize a topic or URL content
+
+Usage: `/summarize <topic-or-url>`
 
 # Summarize
 

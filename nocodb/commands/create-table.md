@@ -1,10 +1,8 @@
----
-description: Create a new table in NocoDB
-argument-hint: <table-name> [--columns <col1:type,col2:type>]
-allowed-tools:
-  - mcp__nocodb__create_table
-  - mcp__nocodb__list_tables
----
+# create-table
+
+Create a new table in NocoDB
+
+Usage: `/create-table <table-name> [--columns <col1:type,col2:type>]`
 
 # Create Table
 

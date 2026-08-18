@@ -1,10 +1,8 @@
----
-description: Create a record in a NocoBase collection
-argument-hint: <collection> <field1=value1> [field2=value2] ...
-allowed-tools:
-  - mcp__nocobase__data_create
-  - mcp__nocobase__collection_get
----
+# create-record
+
+Create a record in a NocoBase collection
+
+Usage: `/create-record <collection> <field1=value1> [field2=value2] ...`
 
 # Create Record
 

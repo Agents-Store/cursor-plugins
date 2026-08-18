@@ -1,8 +1,8 @@
----
-description: Add a field of any of the 30 supported types to a NocoDB table
-argument-hint: '[table-name-or-id] [field-title] [field-type]'
-allowed-tools: '[Read, Write, Bash, Skill]'
----
+# create-field
+
+Add a field of any of the 30 supported types to a NocoDB table
+
+Usage: `/create-field [table-name-or-id] [field-title] [field-type]`
 
 # Create NocoDB Field
 

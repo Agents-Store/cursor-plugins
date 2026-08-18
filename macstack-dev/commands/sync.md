@@ -1,6 +1,6 @@
----
-description: Update macstack.json and derived files after stack changes (spec = definition of done)
----
+# sync
+
+Update macstack.json and derived files after stack changes (spec = definition of done)
 
 Compare the current project state against macstack.json: new/removed software,
 workflows, triggers, entities, interfaces, env keys. Update macstack.json to match

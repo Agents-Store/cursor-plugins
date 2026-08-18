@@ -1,10 +1,8 @@
----
-description: List recent workflow executions
-argument-hint: '[--workflow <name>] [--status <success|error|waiting>] [--limit <n>]'
-allowed-tools:
-  - mcp__n8n__list_executions
-  - mcp__n8n__list_workflows
----
+# list-executions
+
+List recent workflow executions
+
+Usage: `/list-executions [--workflow <name>] [--status <success|error|waiting>] [--limit <n>]`
 
 # List Executions
 

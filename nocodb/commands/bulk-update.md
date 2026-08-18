@@ -1,11 +1,8 @@
----
-description: Bulk update records in a NocoDB table
-argument-hint: <table-name> --where <filter> --set <field=value>
-allowed-tools:
-  - mcp__nocodb__bulk_update_records
-  - mcp__nocodb__list_records
-  - mcp__nocodb__list_tables
----
+# bulk-update
+
+Bulk update records in a NocoDB table
+
+Usage: `/bulk-update <table-name> --where <filter> --set <field=value>`
 
 # Bulk Update
 

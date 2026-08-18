@@ -1,10 +1,8 @@
----
-description: List all product categories with optional search
-argument-hint:
-  - '--search <query>'
-allowed-tools:
-  - mcp__teleshop__list_categories
----
+# list-categories
+
+List all product categories with optional search
+
+Usage: `/list-categories --search <query>`
 
 # List Categories
 

@@ -1,12 +1,8 @@
----
-description: Generate a professional cost estimate / quotation (PDF)
-argument-hint: <estimate-number> [--company <name>] [--client <name>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-estimate
+
+Generate a professional cost estimate / quotation (PDF)
+
+Usage: `/generate-estimate <estimate-number> [--company <name>] [--client <name>]`
 
 # Generate Estimate
 

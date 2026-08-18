@@ -1,8 +1,8 @@
----
-description: Find a CRM contact by email address
-argument-hint: <email>
-allowed-tools: mcp__sendpulse__crm_contacts_list_by_email, mcp__sendpulse__crm_contacts_show, mcp__sendpulse__crm_contacts_deals_list
----
+# find-contact
+
+Find a CRM contact by email address
+
+Usage: `/find-contact <email>`
 
 # Find Contact
 

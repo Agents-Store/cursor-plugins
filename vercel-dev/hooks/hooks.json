@@ -1,142 +1,91 @@
 {
+  "version": 1,
   "hooks": {
-    "SessionStart": [
+    "sessionStart": [
       {
-        "matcher": "startup|resume|clear|compact",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start-seen-skills.mjs\""
-          },
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start-profiler.mjs\""
-          },
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/inject-claude-md.mjs\""
-          }
-        ]
+        "command": "node \"./hooks/session-start-seen-skills.mjs\"",
+        "matcher": "startup|resume|clear|compact"
+      },
+      {
+        "command": "node \"./hooks/session-start-profiler.mjs\"",
+        "matcher": "startup|resume|clear|compact"
+      },
+      {
+        "command": "node \"./hooks/inject-claude-md.mjs\"",
+        "matcher": "startup|resume|clear|compact"
       }
     ],
-    "PreToolUse": [
+    "preToolUse": [
       {
+        "command": "node \"./hooks/pretooluse-skill-inject.mjs\"",
         "matcher": "Read|Edit|Write|Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/pretooluse-skill-inject.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "timeout": 5
       },
       {
+        "command": "node \"./hooks/pretooluse-subagent-spawn-observe.mjs\"",
         "matcher": "Agent",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/pretooluse-subagent-spawn-observe.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "timeout": 5
       }
     ],
-    "UserPromptSubmit": [
+    "beforeSubmitPrompt": [
       {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/user-prompt-submit-telemetry.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "command": "node \"./hooks/user-prompt-submit-telemetry.mjs\"",
+        "timeout": 5
       },
       {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/user-prompt-submit-skill-inject.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "command": "node \"./hooks/user-prompt-submit-skill-inject.mjs\"",
+        "timeout": 5
       }
     ],
-    "PostToolUse": [
+    "postToolUse": [
       {
+        "command": "node \"./hooks/posttooluse-shadcn-font-fix.mjs\"",
         "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse-shadcn-font-fix.mjs\"",
-            "timeout": 5
-          },
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse-verification-observe.mjs\"",
-            "timeout": 5
-          },
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse-telemetry.mjs\"",
-            "timeout": 5
-          },
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse-bash-chain.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "timeout": 5
       },
       {
+        "command": "node \"./hooks/posttooluse-verification-observe.mjs\"",
+        "matcher": "Bash",
+        "timeout": 5
+      },
+      {
+        "command": "node \"./hooks/posttooluse-telemetry.mjs\"",
+        "matcher": "Bash",
+        "timeout": 5
+      },
+      {
+        "command": "node \"./hooks/posttooluse-bash-chain.mjs\"",
+        "matcher": "Bash",
+        "timeout": 5
+      },
+      {
+        "command": "node \"./hooks/posttooluse-validate.mjs\"",
         "matcher": "Write|Edit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse-validate.mjs\"",
-            "timeout": 5
-          },
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse-telemetry.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "timeout": 5
+      },
+      {
+        "command": "node \"./hooks/posttooluse-telemetry.mjs\"",
+        "matcher": "Write|Edit",
+        "timeout": 5
       }
     ],
-    "SubagentStart": [
+    "subagentStart": [
       {
+        "command": "node \"./hooks/subagent-start-bootstrap.mjs\"",
         "matcher": ".+",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/subagent-start-bootstrap.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "timeout": 5
       }
     ],
-    "SubagentStop": [
+    "subagentStop": [
       {
+        "command": "node \"./hooks/subagent-stop-sync.mjs\"",
         "matcher": ".+",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/subagent-stop-sync.mjs\"",
-            "timeout": 5
-          }
-        ]
+        "timeout": 5
       }
     ],
-    "SessionEnd": [
+    "sessionEnd": [
       {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs\""
-          }
-        ]
+        "command": "node \"./hooks/session-end-cleanup.mjs\""
       }
     ]
   }

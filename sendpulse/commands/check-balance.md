@@ -1,9 +1,8 @@
----
-description: Check Sendpulse account balance and email credits
-argument-hint:
-  - '--detailed'
-allowed-tools: mcp__sendpulse__email_balance_show, mcp__sendpulse__email_balance_show_detail
----
+# check-balance
+
+Check Sendpulse account balance and email credits
+
+Usage: `/check-balance --detailed`
 
 # Check Balance
 

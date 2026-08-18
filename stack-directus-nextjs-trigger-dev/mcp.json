@@ -1,10 +1,9 @@
 {
   "mcpServers": {
     "directus": {
-      "type": "http",
-      "url": "${NEXT_PUBLIC_DIRECTUS_URL}/mcp",
+      "url": "${env:NEXT_PUBLIC_DIRECTUS_URL}/mcp",
       "headers": {
-        "Authorization": "Bearer ${DIRECTUS_ADMIN_TOKEN}"
+        "Authorization": "Bearer ${env:DIRECTUS_ADMIN_TOKEN}"
       }
     },
     "trigger-dev": {
@@ -14,8 +13,8 @@
         "mcp"
       ],
       "env": {
-        "TRIGGER_ACCESS_TOKEN": "${TRIGGER_SECRET_KEY}",
-        "TRIGGER_API_URL": "${TRIGGER_API_URL}"
+        "TRIGGER_ACCESS_TOKEN": "${env:TRIGGER_SECRET_KEY}",
+        "TRIGGER_API_URL": "${env:TRIGGER_API_URL}"
       }
     }
   }

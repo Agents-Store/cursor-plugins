@@ -1,11 +1,8 @@
----
-description: Import a full catalog of categories and products from JSON data
-argument-hint: <json-data-or-description> [--mode merge|replace]
-allowed-tools:
-  - mcp__teleshop__import_catalog
-  - mcp__teleshop__list_categories
-  - mcp__teleshop__list_products
----
+# import-catalog
+
+Import a full catalog of categories and products from JSON data
+
+Usage: `/import-catalog <json-data-or-description> [--mode merge|replace]`
 
 # Import Catalog
 

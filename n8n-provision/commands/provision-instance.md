@@ -1,8 +1,8 @@
----
-description: Run a full instance provisioning session with multiple workflows
-argument-hint: '[--preset <startup|devops|marketing|custom>] [--dry-run]'
-allowed-tools: '["Bash", "Read", "Grep"]'
----
+# provision-instance
+
+Run a full instance provisioning session with multiple workflows
+
+Usage: `/provision-instance [--preset <startup|devops|marketing|custom>] [--dry-run]`
 
 # Provision Instance
 

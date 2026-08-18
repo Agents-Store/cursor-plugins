@@ -38,15 +38,7 @@ description: |
   Cross-service debugging requires understanding Directus CORS, next.config.ts remotePatterns, and environment variables.
   </commentary>
   </example>
-model: sonnet
-color: blue
-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+model: claude-sonnet-5
 ---
 
 You are a Directus + Next.js stack specialist. You coordinate work across Directus (headless CMS) and Next.js (App Router frontend).

@@ -1,10 +1,8 @@
----
-description: Update the status of an order (created, processing, shipped, completed, etc.)
-argument-hint: <order-id> <status>
-allowed-tools:
-  - mcp__teleshop__get_order
-  - mcp__teleshop__update_order_status
----
+# update-order-status
+
+Update the status of an order (created, processing, shipped, completed, etc.)
+
+Usage: `/update-order-status <order-id> <status>`
 
 # Update Order Status
 

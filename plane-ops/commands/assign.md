@@ -1,7 +1,8 @@
----
-description: Assign or unassign a Plane work item to one or more users
-argument-hint: <project> <item> <assignee> [more...]
----
+# assign
+
+Assign or unassign a Plane work item to one or more users
+
+Usage: `/assign <project> <item> <assignee> [more...]`
 
 # Assign
 

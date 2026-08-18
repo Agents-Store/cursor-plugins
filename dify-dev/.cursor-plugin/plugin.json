@@ -1,10 +1,12 @@
 {
   "name": "dify-dev",
+  "displayName": "Dify Dev",
   "version": "1.0.0",
   "description": "Dify API dev plugin for Agents Store. Complete coverage of the Dify App Service API (chat, completion, workflows, conversations, files, audio, annotations) and the Knowledge Base / Datasets API — auth, endpoints, streaming events, curl examples, and troubleshooting.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "dify",
     "api",
@@ -16,5 +18,6 @@
     "dev",
     "agents-store",
     "llm-platform"
-  ]
+  ],
+  "skills": "./skills/"
 }

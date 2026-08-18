@@ -1,10 +1,8 @@
----
-description: Crawl a website
-argument-hint: <url> [--max-pages <n>] [--include <pattern>]
-allowed-tools:
-  - mcp__firecrawl__crawl_site
-  - mcp__firecrawl__get_crawl_status
----
+# crawl-site
+
+Crawl a website
+
+Usage: `/crawl-site <url> [--max-pages <n>] [--include <pattern>]`
 
 # Crawl Site
 

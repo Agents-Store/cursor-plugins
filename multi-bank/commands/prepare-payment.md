@@ -1,14 +1,8 @@
----
-description: Prepare a payment to a recipient via bank MCP tools
-argument-hint: <recipient-iban> <amount-uah> <destination>
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - Grep
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# prepare-payment
+
+Prepare a payment to a recipient via bank MCP tools
+
+Usage: `/prepare-payment <recipient-iban> <amount-uah> <destination>`
 
 # Prepare Payment
 

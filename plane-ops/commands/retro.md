@@ -1,7 +1,8 @@
----
-description: Run a sprint retrospective and create action items
-argument-hint: <project> [--format start-stop-continue|daki|4ls]
----
+# retro
+
+Run a sprint retrospective and create action items
+
+Usage: `/retro <project> [--format start-stop-continue|daki|4ls]`
 
 # Retro
 

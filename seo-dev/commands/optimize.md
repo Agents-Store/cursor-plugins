@@ -1,7 +1,8 @@
----
-description: Full SEO optimization — audit, fix, and enhance SEO across Next.js and Directus
-argument-hint: '[--skip-directus] [--skip-build] [--report-only]'
----
+# optimize
+
+Full SEO optimization — audit, fix, and enhance SEO across Next.js and Directus
+
+Usage: `/optimize [--skip-directus] [--skip-build] [--report-only]`
 
 # SEO Optimize
 

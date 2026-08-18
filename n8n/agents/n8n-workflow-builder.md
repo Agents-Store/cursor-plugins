@@ -9,9 +9,7 @@ description: |
   <example>
   user: "Create a scheduled workflow that syncs data from an API every hour"
   </example>
-model: sonnet
-color: cyan
-tools: mcp__n8n__*
+model: claude-sonnet-5
 ---
 
 # n8n Workflow Builder

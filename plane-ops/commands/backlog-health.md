@@ -1,7 +1,8 @@
----
-description: Analyze backlog health — unestimated items, stale items, missing details
-argument-hint: <project>
----
+# backlog-health
+
+Analyze backlog health — unestimated items, stale items, missing details
+
+Usage: `/backlog-health <project>`
 
 # Backlog Health
 

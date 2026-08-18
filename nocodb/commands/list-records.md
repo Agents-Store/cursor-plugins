@@ -1,10 +1,8 @@
----
-description: List records from a NocoDB table with optional filters
-argument-hint: <table> [--where <filter>] [--sort <field>] [--limit <n>]
-allowed-tools:
-  - mcp__nocodb__list_records
-  - mcp__nocodb__list_tables
----
+# list-records
+
+List records from a NocoDB table with optional filters
+
+Usage: `/list-records <table> [--where <filter>] [--sort <field>] [--limit <n>]`
 
 # List Records
 

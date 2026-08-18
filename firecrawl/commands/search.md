@@ -1,9 +1,8 @@
----
-description: Search the web
-argument-hint: <query> [--limit <n>]
-allowed-tools:
-  - mcp__firecrawl__search
----
+# search
+
+Search the web
+
+Usage: `/search <query> [--limit <n>]`
 
 # Search
 

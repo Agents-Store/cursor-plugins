@@ -1,7 +1,8 @@
----
-description: Log work time on a Plane work item (create a work log entry)
-argument-hint: <project> <item> <duration> [description]
----
+# log-time
+
+Log work time on a Plane work item (create a work log entry)
+
+Usage: `/log-time <project> <item> <duration> [description]`
 
 # Log Time
 

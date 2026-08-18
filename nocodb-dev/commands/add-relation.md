@@ -1,8 +1,8 @@
----
-description: Set up a Link between two NocoDB tables, optionally with a Lookup
-argument-hint: '[from-table] [to-table] [cardinality]'
-allowed-tools: '[Read, Write, Bash, Skill]'
----
+# add-relation
+
+Set up a Link between two NocoDB tables, optionally with a Lookup
+
+Usage: `/add-relation [from-table] [to-table] [cardinality]`
 
 # Add Relation
 

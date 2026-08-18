@@ -29,8 +29,7 @@ description: |
   Developer wants a sequence diagram for a specific endpoint.
   </commentary>
   </example>
-model: sonnet
-color: cyan
+model: claude-sonnet-5
 ---
 
 You are a diagram specialist. Your goal is to analyze code and generate clear, accurate visual diagrams using drawio-mcp. All diagrams are native mxGraph XML — no Mermaid, no text-based diagrams.

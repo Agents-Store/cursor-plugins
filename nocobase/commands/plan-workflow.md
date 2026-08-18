@@ -1,8 +1,8 @@
----
-description: Plan a NocoBase workflow automation
-argument-hint: <description>
-allowed-tools: []
----
+# plan-workflow
+
+Plan a NocoBase workflow automation
+
+Usage: `/plan-workflow <description>`
 
 # Plan Workflow
 

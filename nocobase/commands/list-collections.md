@@ -1,11 +1,8 @@
----
-description: List all NocoBase collections
-argument-hint:
-  - '--details'
-allowed-tools:
-  - mcp__nocobase__collection_list
-  - mcp__nocobase__collection_get
----
+# list-collections
+
+List all NocoBase collections
+
+Usage: `/list-collections --details`
 
 # List Collections
 

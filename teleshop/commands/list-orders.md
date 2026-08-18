@@ -1,8 +1,8 @@
----
-description: List orders with optional status, payment type, and search filters
-argument-hint: '[--status <status>] [--payment <type>] [--search <query>]'
-allowed-tools: '["mcp__teleshop__list_orders"]'
----
+# list-orders
+
+List orders with optional status, payment type, and search filters
+
+Usage: `/list-orders [--status <status>] [--payment <type>] [--search <query>]`
 
 # List Orders
 

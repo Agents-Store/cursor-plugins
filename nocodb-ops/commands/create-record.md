@@ -1,11 +1,8 @@
----
-description: Create a new record in a NocoDB table
-argument-hint: <table-name> <field=value pairs>
-allowed-tools:
-  - mcp__nocodb__createRecords
-  - mcp__nocodb__getTablesList
-  - mcp__nocodb__getTableSchema
----
+# create-record
+
+Create a new record in a NocoDB table
+
+Usage: `/create-record <table-name> <field=value pairs>`
 
 # Create Record
 

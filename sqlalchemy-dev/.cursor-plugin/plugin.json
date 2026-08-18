@@ -1,11 +1,13 @@
 {
   "name": "sqlalchemy-dev",
+  "displayName": "Sqlalchemy Dev",
   "version": "1.0.0",
   "description": "SQLAlchemy dev plugin for Agents Store. Model definition patterns, relationship mapping, query optimization, Alembic migrations, and troubleshooting for developers building with SQLAlchemy 2.0+.",
   "author": {
     "name": "Agents Store",
     "url": "https://github.com/agents-store"
   },
+  "license": "MIT",
   "keywords": [
     "sqlalchemy",
     "dev",
@@ -14,5 +16,6 @@
     "orm",
     "alembic",
     "database"
-  ]
+  ],
+  "skills": "./skills/"
 }

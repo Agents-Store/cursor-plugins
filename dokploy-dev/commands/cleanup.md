@@ -1,13 +1,8 @@
----
-description: Reclaim disk space on the Dokploy server with a guided cleanup chain
-argument-hint:
-  - '--dry-run'
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# cleanup
+
+Reclaim disk space on the Dokploy server with a guided cleanup chain
+
+Usage: `/cleanup --dry-run`
 
 # Dokploy Server Cleanup
 

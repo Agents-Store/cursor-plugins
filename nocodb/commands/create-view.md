@@ -1,11 +1,8 @@
----
-description: Create a new view for a NocoDB table
-argument-hint: <table> <view-name> <type> [--group-by <field>]
-allowed-tools:
-  - mcp__nocodb__create_view
-  - mcp__nocodb__list_tables
-  - mcp__nocodb__list_columns
----
+# create-view
+
+Create a new view for a NocoDB table
+
+Usage: `/create-view <table> <view-name> <type> [--group-by <field>]`
 
 # Create View
 

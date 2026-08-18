@@ -1,6 +1,6 @@
----
-description: List all automation flows in Directus
----
+# list-flows
+
+List all automation flows in Directus
 
 # List Flows
 

@@ -1,8 +1,7 @@
 ---
 name: sendpulse-assistant
 description: Interactive Sendpulse assistant. Helps with chatbot management, CRM operations, email marketing, SMTP transactional emails, and multi-channel campaign orchestration.
-model: sonnet
-tools: mcp__sendpulse__*
+model: claude-sonnet-5
 ---
 
 # Sendpulse Assistant

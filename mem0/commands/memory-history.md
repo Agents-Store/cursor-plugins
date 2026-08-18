@@ -1,10 +1,8 @@
----
-description: View the change history of a memory
-argument-hint: <memory_id>
-allowed-tools:
-  - get_memory_history
-  - get_memory
----
+# memory-history
+
+View the change history of a memory
+
+Usage: `/memory-history <memory_id>`
 
 # Memory History
 

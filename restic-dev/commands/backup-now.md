@@ -1,11 +1,8 @@
----
-description: Run an ad-hoc restic backup now and show the resulting snapshot
-argument-hint: '[--dry-run]'
-allowed-tools:
-  - Bash
-  - Read
-  - Skill
----
+# backup-now
+
+Run an ad-hoc restic backup now and show the resulting snapshot
+
+Usage: `/backup-now [--dry-run]`
 
 # restic Backup Now
 

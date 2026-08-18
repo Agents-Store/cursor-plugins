@@ -1,12 +1,8 @@
----
-description: List all applications and services in a Dokploy project
-argument-hint: <project-name-or-id>
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# list-apps
+
+List all applications and services in a Dokploy project
+
+Usage: `/list-apps <project-name-or-id>`
 
 # List Applications
 

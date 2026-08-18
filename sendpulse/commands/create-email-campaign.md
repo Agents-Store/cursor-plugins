@@ -1,8 +1,8 @@
----
-description: Create and send an email campaign
-argument-hint: <subject> [--addressbook <id>] [--sender <email>] [--template <id>]
-allowed-tools: mcp__sendpulse__email_campaigns_create, mcp__sendpulse__email_addressbooks_list, mcp__sendpulse__email_templates_list, mcp__sendpulse__email_senders_list, mcp__sendpulse__email_balance_show, mcp__sendpulse__email_addressbooks_cost
----
+# create-email-campaign
+
+Create and send an email campaign
+
+Usage: `/create-email-campaign <subject> [--addressbook <id>] [--sender <email>] [--template <id>]`
 
 # Create Email Campaign
 

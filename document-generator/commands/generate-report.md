@@ -1,12 +1,8 @@
----
-description: Generate a professional report (DOCX/PDF)
-argument-hint: <title> [--format <docx|pdf>] [--type <annual|quarterly|project>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-report
+
+Generate a professional report (DOCX/PDF)
+
+Usage: `/generate-report <title> [--format <docx|pdf>] [--type <annual|quarterly|project>]`
 
 # Generate Report
 

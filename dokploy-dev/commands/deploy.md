@@ -1,12 +1,8 @@
----
-description: Deploy or redeploy a Dokploy application or Docker Compose service
-argument-hint: <app-name-or-id> [--project <project>]
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# deploy
+
+Deploy or redeploy a Dokploy application or Docker Compose service
+
+Usage: `/deploy <app-name-or-id> [--project <project>]`
 
 # Deploy Application
 

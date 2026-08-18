@@ -47,8 +47,7 @@ description: |
   User needs to create a Directus flow with operations.
   </commentary>
   </example>
-model: sonnet
-color: magenta
+model: claude-sonnet-5
 ---
 
 # Directus Assistant

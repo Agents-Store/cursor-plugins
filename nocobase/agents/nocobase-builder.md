@@ -9,9 +9,7 @@ description: |
   <example>
   user: "Import 50 sample contacts into NocoBase"
   </example>
-model: sonnet
-color: cyan
-tools: mcp__nocobase__*
+model: claude-sonnet-5
 ---
 
 # NocoBase Builder

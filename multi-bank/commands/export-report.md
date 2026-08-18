@@ -1,14 +1,8 @@
----
-description: Export financial report as CSV or PDF
-argument-hint: <format> [date-range]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# export-report
+
+Export financial report as CSV or PDF
+
+Usage: `/export-report <format> [date-range]`
 
 # Export Report
 

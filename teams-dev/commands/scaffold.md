@@ -1,13 +1,8 @@
----
-description: Scaffold a new Microsoft Teams bot, tab, AI agent, or Graph app with the Teams Developer CLI
-argument-hint: <project-name> [template?]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Skill
----
+# scaffold
+
+Scaffold a new Microsoft Teams bot, tab, AI agent, or Graph app with the Teams Developer CLI
+
+Usage: `/scaffold <project-name> [template?]`
 
 # /teams-dev:scaffold
 

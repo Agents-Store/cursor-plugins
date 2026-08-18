@@ -1,10 +1,8 @@
----
-description: Look up a Dify API endpoint — HTTP method, path, parameters, response shape, and a ready curl example
-argument-hint: '[endpoint-or-keyword]'
-allowed-tools:
-  - Read
-  - Skill
----
+# api
+
+Look up a Dify API endpoint — HTTP method, path, parameters, response shape, and a ready curl example
+
+Usage: `/api [endpoint-or-keyword]`
 
 # Dify API Lookup
 

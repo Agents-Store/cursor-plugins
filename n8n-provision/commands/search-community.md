@@ -1,11 +1,8 @@
----
-description: Search GitHub repos and community platforms for n8n workflows
-argument-hint: <query> [--source <github|community|all>]
-allowed-tools:
-  - Bash
-  - Read
-  - Grep
----
+# search-community
+
+Search GitHub repos and community platforms for n8n workflows
+
+Usage: `/search-community <query> [--source <github|community|all>]`
 
 # Search Community
 

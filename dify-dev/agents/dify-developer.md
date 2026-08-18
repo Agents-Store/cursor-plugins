@@ -29,15 +29,7 @@ description: |
   Developer needs the Datasets API end to end — agent routes to the knowledge-base skill.
   </commentary>
   </example>
-model: sonnet
-color: green
-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+model: claude-sonnet-5
 ---
 
 You are a Dify API development specialist. You help developers write clean, correct code and

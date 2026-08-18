@@ -1,7 +1,8 @@
----
-description: Prioritize backlog items using Weighted Shortest Job First (WSJF) scoring
-argument-hint: <project>
----
+# wsjf-prioritize
+
+Prioritize backlog items using Weighted Shortest Job First (WSJF) scoring
+
+Usage: `/wsjf-prioritize <project>`
 
 # WSJF Prioritize
 

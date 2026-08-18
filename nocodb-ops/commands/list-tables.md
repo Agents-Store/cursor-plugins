@@ -1,9 +1,6 @@
----
-description: List all tables in the NocoDB base
-allowed-tools:
-  - mcp__nocodb__getTablesList
-  - mcp__nocodb__getBaseInfo
----
+# list-tables
+
+List all tables in the NocoDB base
 
 # List Tables
 

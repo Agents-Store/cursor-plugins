@@ -1,8 +1,8 @@
----
-description: Run a chatbot automation flow for a contact
-argument-hint: <flow-id> <contact-id>
-allowed-tools: mcp__sendpulse__chatbots_flows_list, mcp__sendpulse__chatbots_flows_run, mcp__sendpulse__chatbots_bots_list
----
+# run-flow
+
+Run a chatbot automation flow for a contact
+
+Usage: `/run-flow <flow-id> <contact-id>`
 
 # Run Flow
 

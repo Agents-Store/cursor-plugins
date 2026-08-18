@@ -1,7 +1,8 @@
----
-description: Show the current Plane user, workspace, and connector status
-argument-hint: (no arguments)
----
+# whoami
+
+Show the current Plane user, workspace, and connector status
+
+Usage: `/whoami (no arguments)`
 
 # Who Am I
 

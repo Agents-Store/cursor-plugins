@@ -1,8 +1,8 @@
----
-description: Send a transactional email via SMTP
-argument-hint: <to-email> <subject> <body>
-allowed-tools: mcp__sendpulse__smtp_emails_send, mcp__sendpulse__smtp_senders_list, mcp__sendpulse__smtp_unsubscribes_is_unsubscribed
----
+# send-smtp-email
+
+Send a transactional email via SMTP
+
+Usage: `/send-smtp-email <to-email> <subject> <body>`
 
 # Send SMTP Email
 

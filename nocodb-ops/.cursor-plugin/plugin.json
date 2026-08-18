@@ -1,10 +1,12 @@
 {
   "name": "nocodb-ops",
+  "displayName": "Nocodb Ops",
   "version": "1.0.6",
   "description": "NocoDB ops plugin for Agents Store. Record management, views, reports, filtering, search, and data import/export for business users via MCP tools and CLI.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "nocodb",
     "ops",
@@ -13,5 +15,6 @@
     "views",
     "reports",
     "agents-store"
-  ]
+  ],
+  "skills": "./skills/"
 }

@@ -1,13 +1,8 @@
----
-description: Build an aggregation report from NocoDB table data
-argument-hint: <table-name> [aggregation-type] [field]
-allowed-tools:
-  - mcp__nocodb__aggregate
-  - mcp__nocodb__queryRecords
-  - mcp__nocodb__getTablesList
-  - mcp__nocodb__getTableSchema
-  - mcp__nocodb__countRecords
----
+# build-report
+
+Build an aggregation report from NocoDB table data
+
+Usage: `/build-report <table-name> [aggregation-type] [field]`
 
 # Build Report
 

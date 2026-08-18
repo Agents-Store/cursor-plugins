@@ -1,11 +1,8 @@
----
-description: Search records in a NocoDB table by keyword
-argument-hint: <table-name> <query>
-allowed-tools:
-  - mcp__nocodb__queryRecords
-  - mcp__nocodb__getTablesList
-  - mcp__nocodb__getTableSchema
----
+# search-records
+
+Search records in a NocoDB table by keyword
+
+Usage: `/search-records <table-name> <query>`
 
 # Search Records
 

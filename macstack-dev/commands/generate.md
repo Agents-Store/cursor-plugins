@@ -1,7 +1,8 @@
----
-description: Generate macstack.json from scratch — result-first stack design from a business request
-argument-hint: <business request>
----
+# generate
+
+Generate macstack.json from scratch — result-first stack design from a business request
+
+Usage: `/generate <business request>`
 
 Use the macstack-dev:generate-stack skill (delegate design to the macstack-architect
 agent for complex requests) to design a stack for: $ARGUMENTS. Then run

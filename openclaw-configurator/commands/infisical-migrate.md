@@ -1,15 +1,8 @@
----
-description: Migrate an OpenClaw instance's secrets from plaintext .env into self-hosted Infisical and wire the Docker stack to inject them at runtime. Prompts for the Infisical project id; pushes sensitive keys; patches Dockerfile/compose/wrapper; rebuilds; strips plaintext; audits.
-argument-hint: '[infisical-project-id]'
-allowed-tools:
-  - Read
-  - Edit
-  - Bash
-  - Glob
-  - Grep
-  - Skill
-  - WebFetch
----
+# infisical-migrate
+
+Migrate an OpenClaw instance's secrets from plaintext .env into self-hosted Infisical and wire the Docker stack to inject them at runtime. Prompts for the Infisical project id; pushes sensitive keys; patches Dockerfile/compose/wrapper; rebuilds; strips plaintext; audits.
+
+Usage: `/infisical-migrate [infisical-project-id]`
 
 # Infisical Migrate
 

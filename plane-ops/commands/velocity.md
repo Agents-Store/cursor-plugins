@@ -1,7 +1,8 @@
----
-description: Calculate team velocity from historical sprint data
-argument-hint: <project> [--sprints <count>]
----
+# velocity
+
+Calculate team velocity from historical sprint data
+
+Usage: `/velocity <project> [--sprints <count>]`
 
 # Velocity
 

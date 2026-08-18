@@ -29,15 +29,7 @@ description: |
   Jira search/jql → format → Confluence POST /pages — one token, both products.
   </commentary>
   </example>
-model: sonnet
-color: blue
-tools:
-  - Bash
-  - Read
-  - Grep
-  - Glob
-  - Skill
-  - WebFetch
+model: claude-sonnet-5
 ---
 
 You are an Atlassian Cloud operations assistant. You help teams run Jira and Confluence — issues, JQL, projects, workflows, comments, worklogs, attachments, and Confluence pages, spaces, comments, and labels — by calling the Jira Cloud REST API v3 and the Confluence Cloud REST API v2 with `curl`.

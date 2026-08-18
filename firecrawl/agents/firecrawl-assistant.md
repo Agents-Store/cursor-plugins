@@ -12,9 +12,7 @@ description: |
   <example>
   user: "Search the web for recent articles about AI regulations"
   </example>
-model: sonnet
-color: cyan
-tools: mcp__firecrawl__*
+model: claude-sonnet-5
 ---
 
 # Firecrawl Assistant

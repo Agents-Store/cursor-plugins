@@ -1,14 +1,8 @@
----
-description: Show current or historical currency exchange rates
-argument-hint:
-  - history <start-date> <end-date>
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# currency-rates
+
+Show current or historical currency exchange rates
+
+Usage: `/currency-rates history <start-date> <end-date>`
 
 # Currency Rates
 

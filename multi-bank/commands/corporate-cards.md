@@ -1,14 +1,8 @@
----
-description: List corporate cards with balances and status
-argument-hint:
-  - open|closed|all
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# corporate-cards
+
+List corporate cards with balances and status
+
+Usage: `/corporate-cards open|closed|all`
 
 # Corporate Cards
 

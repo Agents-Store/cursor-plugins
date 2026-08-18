@@ -7,9 +7,9 @@
         "@nocobase/mcp-server"
       ],
       "env": {
-        "NOCOBASE_URL": "${NOCOBASE_URL}",
-        "NOCOBASE_EMAIL": "${NOCOBASE_EMAIL}",
-        "NOCOBASE_PASSWORD": "${NOCOBASE_PASSWORD}"
+        "NOCOBASE_URL": "${env:NOCOBASE_URL}",
+        "NOCOBASE_EMAIL": "${env:NOCOBASE_EMAIL}",
+        "NOCOBASE_PASSWORD": "${env:NOCOBASE_PASSWORD}"
       }
     }
   }

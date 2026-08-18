@@ -1,7 +1,8 @@
----
-description: Show status and risk for a Plane milestone (release/launch tracking)
-argument-hint: <project> [milestone name or id]
----
+# milestone-status
+
+Show status and risk for a Plane milestone (release/launch tracking)
+
+Usage: `/milestone-status <project> [milestone name or id]`
 
 # Milestone Status
 

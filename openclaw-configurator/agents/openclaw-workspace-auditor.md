@@ -15,15 +15,7 @@ description: |
   <example>
   user: "Check my workspace for security issues"
   </example>
-model: sonnet
-color: yellow
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebFetch
-  - WebSearch
+model: claude-sonnet-5
 ---
 
 # OpenClaw Workspace Auditor

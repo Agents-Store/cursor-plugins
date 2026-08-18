@@ -1,9 +1,8 @@
----
-description: List all n8n workflows
-argument-hint: '[--active] [--tag <tag>]'
-allowed-tools:
-  - mcp__n8n__list_workflows
----
+# list-workflows
+
+List all n8n workflows
+
+Usage: `/list-workflows [--active] [--tag <tag>]`
 
 # List Workflows
 

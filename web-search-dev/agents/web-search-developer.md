@@ -29,15 +29,7 @@ description: |
   Developer needs media content for their application — search across Pexels, Unsplash, and web images.
   </commentary>
   </example>
-model: sonnet
-color: cyan
-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+model: claude-sonnet-5
 ---
 
 You are a web search and scraping development specialist. You help developers extract content from websites, find documentation, search for media, and integrate search services into their applications.

@@ -1,8 +1,6 @@
----
-description: List all available store addons and their status
-allowed-tools:
-  - mcp__teleshop__list_workflows
----
+# list-addons
+
+List all available store addons and their status
 
 # List Addons
 

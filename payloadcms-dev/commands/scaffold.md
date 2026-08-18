@@ -1,15 +1,8 @@
----
-description: Scaffold a fresh PayloadCMS v3 project with create-payload-app, walking through database adapter, template, and package manager choices.
-argument-hint:
-  - project-name
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - AskUserQuestion
-  - Skill
----
+# scaffold
+
+Scaffold a fresh PayloadCMS v3 project with create-payload-app, walking through database adapter, template, and package manager choices.
+
+Usage: `/scaffold project-name`
 
 # /payloadcms-dev:scaffold
 

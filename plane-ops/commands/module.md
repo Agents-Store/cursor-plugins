@@ -1,7 +1,8 @@
----
-description: Manage Plane modules — list, get, update, add items, archive (complement to /create-module)
-argument-hint: <action> <project> [args...]
----
+# module
+
+Manage Plane modules — list, get, update, add items, archive (complement to /create-module)
+
+Usage: `/module <action> <project> [args...]`
 
 # Module
 

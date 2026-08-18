@@ -1,11 +1,8 @@
----
-description: Create a new Trigger.dev task file
-argument-hint: <task-name> [--type basic|schema|cron|agent]
-allowed-tools:
-  - Read
-  - Write
-  - Edit
----
+# create-task
+
+Create a new Trigger.dev task file
+
+Usage: `/create-task <task-name> [--type basic|schema|cron|agent]`
 
 # Create Task
 

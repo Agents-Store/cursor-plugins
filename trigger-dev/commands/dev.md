@@ -1,10 +1,8 @@
----
-description: Start the Trigger.dev dev server
-argument-hint:
-  - '--profile <name>'
-allowed-tools:
-  - Bash
----
+# dev
+
+Start the Trigger.dev dev server
+
+Usage: `/dev --profile <name>`
 
 # Start Dev Server
 

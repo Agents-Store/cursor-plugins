@@ -1,12 +1,8 @@
----
-description: Create a new application in a Dokploy project
-argument-hint: <name> --project <project> [--env <environment>] [--build <nixpacks|dockerfile|static>]
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# create-app
+
+Create a new application in a Dokploy project
+
+Usage: `/create-app <name> --project <project> [--env <environment>] [--build <nixpacks|dockerfile|static>]`
 
 # Create Application
 

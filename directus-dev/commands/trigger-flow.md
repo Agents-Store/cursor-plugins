@@ -1,7 +1,8 @@
----
-description: Trigger a Directus automation flow
-argument-hint: <flow-name-or-id> <collection> [--keys <id1,id2>] [--data <json>]
----
+# trigger-flow
+
+Trigger a Directus automation flow
+
+Usage: `/trigger-flow <flow-name-or-id> <collection> [--keys <id1,id2>] [--data <json>]`
 
 # Trigger Flow
 

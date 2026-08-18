@@ -1,13 +1,6 @@
----
-description: Force-sync all connected bank accounts via MCP
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# sync-accounts
+
+Force-sync all connected bank accounts via MCP
 
 # Sync Accounts
 

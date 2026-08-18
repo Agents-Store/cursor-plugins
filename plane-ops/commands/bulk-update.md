@@ -1,7 +1,8 @@
----
-description: Apply the same change to many Plane work items at once
-argument-hint: <project> <items...> <changes...>
----
+# bulk-update
+
+Apply the same change to many Plane work items at once
+
+Usage: `/bulk-update <project> <items...> <changes...>`
 
 # Bulk Update
 

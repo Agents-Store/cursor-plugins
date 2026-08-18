@@ -1,7 +1,8 @@
----
-description: Create a new item in a Directus collection
-argument-hint: <collection> <field=value> [field=value...]
----
+# create-item
+
+Create a new item in a Directus collection
+
+Usage: `/create-item <collection> <field=value> [field=value...]`
 
 # Create Item
 

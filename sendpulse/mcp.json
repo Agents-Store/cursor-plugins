@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "sendpulse": {
-      "type": "http",
       "url": "https://mcp.sendpulse.com/mcp"
     }
   }

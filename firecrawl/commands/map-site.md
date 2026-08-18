@@ -1,9 +1,8 @@
----
-description: Map a site's URL structure
-argument-hint: <url>
-allowed-tools:
-  - mcp__firecrawl__map_site
----
+# map-site
+
+Map a site's URL structure
+
+Usage: `/map-site <url>`
 
 # Map Site
 

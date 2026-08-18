@@ -1,9 +1,8 @@
----
-description: Get n8n workflow details
-argument-hint: <workflow-id>
-allowed-tools:
-  - mcp__n8n__get_workflow
----
+# get-workflow
+
+Get n8n workflow details
+
+Usage: `/get-workflow <workflow-id>`
 
 # Get Workflow
 

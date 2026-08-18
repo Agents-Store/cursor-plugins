@@ -1,8 +1,8 @@
----
-description: Create a Grid / Form / Gallery / Kanban / Calendar / Map view
-argument-hint: '[table-name-or-id] [view-type] [view-title]'
-allowed-tools: '[Read, Write, Bash, Skill]'
----
+# create-view
+
+Create a Grid / Form / Gallery / Kanban / Calendar / Map view
+
+Usage: `/create-view [table-name-or-id] [view-type] [view-title]`
 
 # Create NocoDB View
 

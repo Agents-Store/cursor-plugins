@@ -1,7 +1,8 @@
----
-description: Manage custom properties on Plane work items (severity, customer impact, etc.)
-argument-hint: <action> <project> [args...]
----
+# property
+
+Manage custom properties on Plane work items (severity, customer impact, etc.)
+
+Usage: `/property <action> <project> [args...]`
 
 # Property
 

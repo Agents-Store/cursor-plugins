@@ -1,8 +1,8 @@
----
-description: Deploy Trigger.dev tasks to an environment
-argument-hint: '[staging|production] [--profile <name>]'
-allowed-tools: '[Bash]'
----
+# deploy
+
+Deploy Trigger.dev tasks to an environment
+
+Usage: `/deploy [staging|production] [--profile <name>]`
 
 # Deploy Tasks
 

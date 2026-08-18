@@ -1,10 +1,8 @@
----
-description: Batch scrape multiple URLs at once
-argument-hint: <url1> <url2> [url3] ... [--format <markdown|html>]
-allowed-tools:
-  - mcp__firecrawl__batch_scrape
-  - mcp__firecrawl__check_batch_status
----
+# batch-scrape
+
+Batch scrape multiple URLs at once
+
+Usage: `/batch-scrape <url1> <url2> [url3] ... [--format <markdown|html>]`
 
 # Batch Scrape
 

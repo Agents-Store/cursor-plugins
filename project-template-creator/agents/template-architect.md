@@ -40,12 +40,7 @@ description: |
   Multi-technology template implies Level 1. The agent plans layers, identifies existing plugins, and recommends structure.
   </commentary>
   </example>
-model: sonnet
-color: cyan
-tools:
-  - Read
-  - Grep
-  - Glob
+model: claude-sonnet-5
 ---
 
 You are an expert template architect for the STACKMAKERS project template hierarchy. You help users decide where improvements belong in the 4-level template system and plan new template structures.

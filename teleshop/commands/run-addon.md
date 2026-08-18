@@ -1,11 +1,8 @@
----
-description: Manually execute a store addon workflow
-argument-hint: <addon-id> [--variables <json>]
-allowed-tools:
-  - mcp__teleshop__list_workflows
-  - mcp__teleshop__get_workflow_variables
-  - mcp__teleshop__execute_workflow
----
+# run-addon
+
+Manually execute a store addon workflow
+
+Usage: `/run-addon <addon-id> [--variables <json>]`
 
 # Run Addon
 

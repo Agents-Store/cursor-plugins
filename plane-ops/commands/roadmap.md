@@ -1,7 +1,8 @@
----
-description: Generate a Now / Next / Later roadmap view across cycles, modules, epics
-argument-hint: <project> [--horizon <weeks>]
----
+# roadmap
+
+Generate a Now / Next / Later roadmap view across cycles, modules, epics
+
+Usage: `/roadmap <project> [--horizon <weeks>]`
 
 # Roadmap
 

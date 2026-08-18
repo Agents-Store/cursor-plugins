@@ -1,8 +1,8 @@
----
-description: Create a new NocoDB table with optional initial fields
-argument-hint: '[base-name-or-id] [table-title]'
-allowed-tools: '[Read, Write, Bash, Skill]'
----
+# create-table
+
+Create a new NocoDB table with optional initial fields
+
+Usage: `/create-table [base-name-or-id] [table-title]`
 
 # Create NocoDB Table
 

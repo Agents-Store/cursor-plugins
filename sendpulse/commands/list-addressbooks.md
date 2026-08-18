@@ -1,9 +1,8 @@
----
-description: List email addressbooks with subscriber counts
-argument-hint:
-  - '--limit <number>'
-allowed-tools: mcp__sendpulse__email_addressbooks_list
----
+# list-addressbooks
+
+List email addressbooks with subscriber counts
+
+Usage: `/list-addressbooks --limit <number>`
 
 # List Addressbooks
 

@@ -1,10 +1,8 @@
----
-description: Update an existing memory's content
-argument-hint: <memory_id> "<new content>"
-allowed-tools:
-  - update_memory
-  - get_memory
----
+# update-memory
+
+Update an existing memory's content
+
+Usage: `/update-memory <memory_id> "<new content>"`
 
 # Update Memory
 

@@ -1,10 +1,8 @@
----
-description: Batch update multiple memories at once (up to 100)
-argument-hint: <memory_id1>="<text>" <memory_id2>="<text>" ...
-allowed-tools:
-  - batch_update_memories
-  - search_memories
----
+# batch-update
+
+Batch update multiple memories at once (up to 100)
+
+Usage: `/batch-update <memory_id1>="<text>" <memory_id2>="<text>" ...`
 
 # Batch Update
 

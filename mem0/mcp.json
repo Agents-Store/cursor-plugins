@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "mem0": {
-      "type": "http",
       "url": "https://my-mcp.mcpware.net/mcp/mem0-user"
     }
   }

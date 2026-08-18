@@ -1,9 +1,8 @@
----
-description: List CRM tasks
-argument-hint:
-  - '--limit <number>'
-allowed-tools: mcp__sendpulse__crm_tasks_list
----
+# list-tasks
+
+List CRM tasks
+
+Usage: `/list-tasks --limit <number>`
 
 # List Tasks
 

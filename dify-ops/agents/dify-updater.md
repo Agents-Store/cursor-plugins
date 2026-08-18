@@ -49,15 +49,7 @@ description: |
   Standalone env sync — agent diffs the two files and appends missing variables.
   </commentary>
   </example>
-model: sonnet
-color: yellow
-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Glob
-  - Grep
+model: claude-sonnet-5
 ---
 
 You are a Dify self-hosted deployment specialist. You help users update their Dify instances safely and correctly.

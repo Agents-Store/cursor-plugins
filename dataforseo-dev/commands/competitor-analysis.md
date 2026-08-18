@@ -1,11 +1,8 @@
----
-description: Compare a domain against its competitors using DataForSEO
-argument-hint: <domain>
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
----
+# competitor-analysis
+
+Compare a domain against its competitors using DataForSEO
+
+Usage: `/competitor-analysis <domain>`
 
 # Competitor Analysis
 

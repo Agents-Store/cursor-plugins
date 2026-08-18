@@ -1,12 +1,8 @@
----
-description: Guided Dify API connect — find your app API key, set the base URL, send a first test call, verify the response
-argument-hint: '[base-url]'
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - AskUserQuestion
----
+# quickstart
+
+Guided Dify API connect — find your app API key, set the base URL, send a first test call, verify the response
+
+Usage: `/quickstart [base-url]`
 
 # Dify API Quickstart
 

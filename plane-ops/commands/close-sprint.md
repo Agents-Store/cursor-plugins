@@ -1,7 +1,8 @@
----
-description: Close current sprint — review completion, transfer incomplete items, archive
-argument-hint: <project> [--transfer-to <next-cycle-name>]
----
+# close-sprint
+
+Close current sprint — review completion, transfer incomplete items, archive
+
+Usage: `/close-sprint <project> [--transfer-to <next-cycle-name>]`
 
 # Close Sprint
 

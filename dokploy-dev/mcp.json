@@ -7,8 +7,8 @@
         "@dokploy/mcp"
       ],
       "env": {
-        "DOKPLOY_URL": "${DOKPLOY_URL}",
-        "DOKPLOY_API_KEY": "${DOKPLOY_API_KEY}"
+        "DOKPLOY_URL": "${env:DOKPLOY_URL}",
+        "DOKPLOY_API_KEY": "${env:DOKPLOY_API_KEY}"
       }
     }
   }

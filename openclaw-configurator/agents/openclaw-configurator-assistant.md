@@ -27,17 +27,7 @@ description: |
   <example>
   user: "Run a security audit on my workspace"
   </example>
-model: sonnet
-color: blue
-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Glob
-  - Grep
-  - WebFetch
-  - WebSearch
+model: claude-sonnet-5
 ---
 
 # OpenClaw Configurator Assistant

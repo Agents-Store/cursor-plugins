@@ -1,7 +1,8 @@
----
-description: Search items across a Directus collection using full-text search
-argument-hint: <collection> <query>
----
+# search-items
+
+Search items across a Directus collection using full-text search
+
+Usage: `/search-items <collection> <query>`
 
 # Search Items
 

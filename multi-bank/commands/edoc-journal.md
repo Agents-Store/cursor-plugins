@@ -1,14 +1,8 @@
----
-description: Browse electronic documents (EDO) — inbox, outbox, all documents
-argument-hint: <inbox|outbox|all> [date-range]
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - Grep
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# edoc-journal
+
+Browse electronic documents (EDO) — inbox, outbox, all documents
+
+Usage: `/edoc-journal <inbox|outbox|all> [date-range]`
 
 # Electronic Document Journal
 

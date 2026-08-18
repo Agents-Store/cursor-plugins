@@ -1,13 +1,8 @@
----
-description: Debug a failed or stuck Dokploy deployment with full decision-tree analysis
-argument-hint:
-  - app-name-or-id|compose-id
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# debug
+
+Debug a failed or stuck Dokploy deployment with full decision-tree analysis
+
+Usage: `/debug app-name-or-id|compose-id`
 
 # Debug Failed Deployment
 
@@ -25,7 +20,7 @@ Parse from "$ARGUMENTS".
 
 ## Process
 
-Read `${CLAUDE_PLUGIN_ROOT}/skills/debug-deploy/SKILL.md` and follow every step in order. Do not skip.
+Read `./skills/debug-deploy/SKILL.md` and follow every step in order. Do not skip.
 
 Key checkpoints:
 

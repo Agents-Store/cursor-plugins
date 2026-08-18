@@ -1,12 +1,8 @@
----
-description: Guided restore / disaster recovery from a restic repository
-argument-hint: '[--what <path>] [--snapshot <id|latest>] [--target <dir>]'
-allowed-tools:
-  - Bash
-  - Read
-  - Skill
-  - Agent
----
+# restore
+
+Guided restore / disaster recovery from a restic repository
+
+Usage: `/restore [--what <path>] [--snapshot <id|latest>] [--target <dir>]`
 
 # restic Restore
 

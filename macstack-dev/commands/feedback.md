@@ -1,7 +1,8 @@
----
-description: Report a problem with macstack-dev, the macstack.json schema, or the registry — and fix it at the source
-argument-hint: <what went wrong>
----
+# feedback
+
+Report a problem with macstack-dev, the macstack.json schema, or the registry — and fix it at the source
+
+Usage: `/feedback <what went wrong>`
 
 Use the macstack-dev:feedback skill for: $ARGUMENTS. Route the fix to the right
 source of truth (plugin skills / github.com/macstacks/macstack schema+examples /

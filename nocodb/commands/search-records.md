@@ -1,10 +1,8 @@
----
-description: Search records in a NocoDB table
-argument-hint: <table-name> <query>
-allowed-tools:
-  - mcp__nocodb__search_records
-  - mcp__nocodb__list_tables
----
+# search-records
+
+Search records in a NocoDB table
+
+Usage: `/search-records <table-name> <query>`
 
 # Search Records
 

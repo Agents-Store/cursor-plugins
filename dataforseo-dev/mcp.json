@@ -7,8 +7,8 @@
         "dataforseo-mcp-server@latest"
       ],
       "env": {
-        "DATAFORSEO_USERNAME": "${DATAFORSEO_USERNAME}",
-        "DATAFORSEO_PASSWORD": "${DATAFORSEO_PASSWORD}"
+        "DATAFORSEO_USERNAME": "${env:DATAFORSEO_USERNAME}",
+        "DATAFORSEO_PASSWORD": "${env:DATAFORSEO_PASSWORD}"
       }
     }
   }

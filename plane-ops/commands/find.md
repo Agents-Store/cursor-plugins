@@ -1,7 +1,8 @@
----
-description: Search Plane work items by query, identifier, or filter
-argument-hint: <query> [--project name] [--state name] [--assignee user] [--label name]
----
+# find
+
+Search Plane work items by query, identifier, or filter
+
+Usage: `/find <query> [--project name] [--state name] [--assignee user] [--label name]`
 
 # Find
 

@@ -1,6 +1,6 @@
----
-description: Discover and install Vercel Marketplace integrations. Use to find databases, CMS, auth providers, and other services available on the Vercel Marketplace.
----
+# marketplace
+
+Discover and install Vercel Marketplace integrations. Use to find databases, CMS, auth providers, and other services available on the Vercel Marketplace.
 
 # Vercel Marketplace
 

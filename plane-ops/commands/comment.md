@@ -1,7 +1,8 @@
----
-description: Add or list comments on a Plane work item
-argument-hint: <action> <project> <item> [body]
----
+# comment
+
+Add or list comments on a Plane work item
+
+Usage: `/comment <action> <project> <item> [body]`
 
 # Comment
 

@@ -1,10 +1,8 @@
----
-description: List records from a NocoBase collection
-argument-hint: <collection> [--limit <n>] [--filter <field=value>]
-allowed-tools:
-  - mcp__nocobase__data_list
-  - mcp__nocobase__collection_get
----
+# list-records
+
+List records from a NocoBase collection
+
+Usage: `/list-records <collection> [--limit <n>] [--filter <field=value>]`
 
 # List Records
 

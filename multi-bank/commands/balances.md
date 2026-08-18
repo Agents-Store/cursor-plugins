@@ -1,14 +1,8 @@
----
-description: Show current balances across all connected bank accounts
-argument-hint:
-  - bank-name
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# balances
+
+Show current balances across all connected bank accounts
+
+Usage: `/balances bank-name`
 
 # Balances
 

@@ -1,7 +1,8 @@
----
-description: Create, update, or inspect a work item (issue/task/ticket) in Plane
-argument-hint: <action> <project> [args...]
----
+# work-item
+
+Create, update, or inspect a work item (issue/task/ticket) in Plane
+
+Usage: `/work-item <action> <project> [args...]`
 
 # Work Item
 

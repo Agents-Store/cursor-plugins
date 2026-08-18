@@ -15,9 +15,7 @@ description: |
   <example>
   user: "Show me the broadcast system architecture"
   </example>
-model: sonnet
-color: magenta
-tools: Bash, Read, Write, Glob, Grep
+model: claude-sonnet-5
 ---
 
 # Broadcast Architect

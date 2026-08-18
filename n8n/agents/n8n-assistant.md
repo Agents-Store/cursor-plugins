@@ -12,9 +12,7 @@ description: |
   <example>
   user: "Set up API credentials for my Slack integration"
   </example>
-model: sonnet
-color: green
-tools: mcp__n8n__*
+model: claude-sonnet-5
 ---
 
 # n8n Assistant

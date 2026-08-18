@@ -1,7 +1,8 @@
----
-description: Add or list external links (PRs, docs, designs) on a Plane work item
-argument-hint: <action> <project> <item> [url] [title]
----
+# link
+
+Add or list external links (PRs, docs, designs) on a Plane work item
+
+Usage: `/link <action> <project> <item> [url] [title]`
 
 # Link
 

@@ -1,9 +1,8 @@
----
-description: Extract structured data from URLs
-argument-hint: <url> [url2...] --schema <json-schema>
-allowed-tools:
-  - mcp__firecrawl__extract_data
----
+# extract-data
+
+Extract structured data from URLs
+
+Usage: `/extract-data <url> [url2...] --schema <json-schema>`
 
 # Extract Data
 

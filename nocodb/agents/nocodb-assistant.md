@@ -12,9 +12,7 @@ description: |
   <example>
   user: "Help me set up relations between Contacts and Deals tables"
   </example>
-model: sonnet
-color: green
-tools: mcp__nocodb__*
+model: claude-sonnet-5
 ---
 
 # NocoDB Assistant

@@ -1,11 +1,8 @@
----
-description: Execute an n8n workflow
-argument-hint: <workflow> [--data <json>]
-allowed-tools:
-  - mcp__n8n__execute_workflow
-  - mcp__n8n__list_workflows
-  - mcp__n8n__get_execution
----
+# execute-workflow
+
+Execute an n8n workflow
+
+Usage: `/execute-workflow <workflow> [--data <json>]`
 
 # Execute Workflow
 

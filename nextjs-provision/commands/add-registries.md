@@ -1,14 +1,8 @@
----
-description: Fetch all 260+ shadcn registries from the official endpoint and add them to components.json
-argument-hint:
-  - '--filter <keyword>'
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - WebFetch
----
+# add-registries
+
+Fetch all 260+ shadcn registries from the official endpoint and add them to components.json
+
+Usage: `/add-registries --filter <keyword>`
 
 # Add Registries
 

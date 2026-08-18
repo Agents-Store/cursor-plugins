@@ -1,7 +1,8 @@
----
-description: Create a new Directus collection with optional fields
-argument-hint: <name> [--fields <field1:type,field2:type>] [--icon <icon>]
----
+# create-collection
+
+Create a new Directus collection with optional fields
+
+Usage: `/create-collection <name> [--fields <field1:type,field2:type>] [--icon <icon>]`
 
 # Create Collection
 

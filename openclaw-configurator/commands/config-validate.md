@@ -1,16 +1,8 @@
----
-description: Validate openclaw.json against official documentation, check for latest features, detect inline secrets, verify cross-references with workspace files, and optionally reconcile config against a newer release
-argument-hint: '[--secrets] [--docs] [--all] [--upgrade] [--upgrade-from <tag>]'
-allowed-tools:
-  - Read
-  - Edit
-  - Bash
-  - Glob
-  - Grep
-  - Skill
-  - WebFetch
-  - WebSearch
----
+# config-validate
+
+Validate openclaw.json against official documentation, check for latest features, detect inline secrets, verify cross-references with workspace files, and optionally reconcile config against a newer release
+
+Usage: `/config-validate [--secrets] [--docs] [--all] [--upgrade] [--upgrade-from <tag>]`
 
 # Config Validate
 

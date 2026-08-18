@@ -1,15 +1,8 @@
----
-description: Manage payslips — upload, send to employees, check status, generate PDF
-argument-hint: <upload|send|status|pdf|delete> <period> [identification]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
-  - Grep
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# payslips
+
+Manage payslips — upload, send to employees, check status, generate PDF
+
+Usage: `/payslips <upload|send|status|pdf|delete> <period> [identification]`
 
 # Payslips (Розрахункові листки)
 

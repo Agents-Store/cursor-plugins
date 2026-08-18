@@ -1,7 +1,8 @@
----
-description: Manage Plane epics — list, get, update, delete (complement to /create-epic)
-argument-hint: <action> <project> [args...]
----
+# epic
+
+Manage Plane epics — list, get, update, delete (complement to /create-epic)
+
+Usage: `/epic <action> <project> [args...]`
 
 # Epic
 

@@ -1,7 +1,8 @@
----
-description: List Plane workspace or project members and their roles
-argument-hint: '[scope] [project]'
----
+# members
+
+List Plane workspace or project members and their roles
+
+Usage: `/members [scope] [project]`
 
 # Members
 

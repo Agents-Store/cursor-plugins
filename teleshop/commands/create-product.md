@@ -1,10 +1,8 @@
----
-description: Create a new product in the store
-argument-hint: <title> <sku> <price> [--quantity <n>] [--category <id>] [--description <text>]
-allowed-tools:
-  - mcp__teleshop__create_product
-  - mcp__teleshop__list_categories
----
+# create-product
+
+Create a new product in the store
+
+Usage: `/create-product <title> <sku> <price> [--quantity <n>] [--category <id>] [--description <text>]`
 
 # Create Product
 

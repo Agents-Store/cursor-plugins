@@ -1,10 +1,12 @@
 {
   "name": "infisical-dev",
+  "displayName": "Infisical Dev",
   "version": "1.0.0",
   "description": "Infisical CLI dev plugin for Agents Store. Complete command-line coverage for secrets management — install & auth, infisical run/secrets/export, dynamic secrets, secret scanning with pre-commit hooks, machine-identity CI/CD auth, self-hosted, and troubleshooting.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "infisical",
     "cli",
@@ -17,5 +19,6 @@
     "dotenv",
     "dev",
     "agents-store"
-  ]
+  ],
+  "skills": "./skills/"
 }

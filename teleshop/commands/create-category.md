@@ -1,10 +1,8 @@
----
-description: Create a new product category
-argument-hint: <title> [--parent <id>] [--orderBy cheap|expensive|novelty|popular]
-allowed-tools:
-  - mcp__teleshop__create_category
-  - mcp__teleshop__list_categories
----
+# create-category
+
+Create a new product category
+
+Usage: `/create-category <title> [--parent <id>] [--orderBy cheap|expensive|novelty|popular]`
 
 # Create Category
 

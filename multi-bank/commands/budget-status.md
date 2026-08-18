@@ -1,14 +1,8 @@
----
-description: Show budget utilization and active alerts
-argument-hint:
-  - category
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
-  - mcp__monobank__*
-  - mcp__privatbank__*
----
+# budget-status
+
+Show budget utilization and active alerts
+
+Usage: `/budget-status category`
 
 # Budget Status
 

@@ -1,13 +1,8 @@
----
-description: Initialize Trigger.dev in the current project
-argument-hint:
-  - '--self-hosted <url>'
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
----
+# init
+
+Initialize Trigger.dev in the current project
+
+Usage: `/init --self-hosted <url>`
 
 # Initialize Trigger.dev
 

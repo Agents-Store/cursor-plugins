@@ -1,7 +1,8 @@
----
-description: Triage the Plane intake inbox — accept, defer, or reject incoming items
-argument-hint: <project> [--limit <n>]
----
+# triage-intake
+
+Triage the Plane intake inbox — accept, defer, or reject incoming items
+
+Usage: `/triage-intake <project> [--limit <n>]`
 
 # Triage Intake
 

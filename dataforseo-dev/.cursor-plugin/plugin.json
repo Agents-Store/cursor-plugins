@@ -1,10 +1,12 @@
 {
   "name": "dataforseo-dev",
+  "displayName": "Dataforseo Dev",
   "version": "1.0.0",
   "description": "DataForSEO data analysis plugin. Keyword research, competitor analysis, backlink auditing, SERP monitoring, on-page audits, content analysis, and AI optimization via 70+ MCP tools.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "dataforseo",
     "seo",
@@ -17,5 +19,6 @@
     "ai-optimization",
     "dev",
     "agents-store"
-  ]
+  ],
+  "skills": "./skills/"
 }

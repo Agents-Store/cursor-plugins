@@ -1,12 +1,8 @@
----
-description: Generate a professional presentation (PPTX)
-argument-hint: <title> [--slides <number>] [--theme <corporate|minimal|bold>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-presentation
+
+Generate a professional presentation (PPTX)
+
+Usage: `/generate-presentation <title> [--slides <number>] [--theme <corporate|minimal|bold>]`
 
 # Generate Presentation
 

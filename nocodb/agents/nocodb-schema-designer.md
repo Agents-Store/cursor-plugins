@@ -9,9 +9,7 @@ description: |
   <example>
   user: "Plan a project management database with tasks, teams, and milestones"
   </example>
-model: sonnet
-color: cyan
-tools: mcp__nocodb__*
+model: claude-sonnet-5
 ---
 
 # NocoDB Schema Designer

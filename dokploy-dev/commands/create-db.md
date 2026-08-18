@@ -1,12 +1,8 @@
----
-description: Create and deploy a database in a Dokploy project
-argument-hint: <name> --project <project> --type <postgres|mysql|mariadb|mongo|redis|libsql> [--password <pass>]
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# create-db
+
+Create and deploy a database in a Dokploy project
+
+Usage: `/create-db <name> --project <project> --type <postgres|mysql|mariadb|mongo|redis|libsql> [--password <pass>]`
 
 # Create Database
 

@@ -1,14 +1,8 @@
----
-description: Update self-hosted Dify — pull upstream, merge into dev, sync .env, rebuild Docker containers
-argument-hint: '[tag-or-version]'
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Glob
-  - Grep
----
+# update
+
+Update self-hosted Dify — pull upstream, merge into dev, sync .env, rebuild Docker containers
+
+Usage: `/update [tag-or-version]`
 
 # Dify Update
 

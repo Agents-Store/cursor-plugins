@@ -1,8 +1,7 @@
 ---
 name: email-marketing-assistant
 description: Specialized email marketing assistant. Expert in email campaigns, templates, addressbooks, subscriber management, SMTP transactional emails, and deliverability.
-model: sonnet
-tools: mcp__sendpulse__email_*, mcp__sendpulse__smtp_*
+model: claude-sonnet-5
 ---
 
 # Email Marketing Assistant

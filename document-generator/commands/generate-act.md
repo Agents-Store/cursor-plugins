@@ -1,12 +1,8 @@
----
-description: Generate an Act of Completed Works (PDF)
-argument-hint: <title> [--format <pdf|docx>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-act
+
+Generate an Act of Completed Works (PDF)
+
+Usage: `/generate-act <title> [--format <pdf|docx>]`
 
 # Generate Act of Completed Works
 

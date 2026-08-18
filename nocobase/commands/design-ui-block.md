@@ -1,13 +1,8 @@
----
-description: Design a NocoBase UI block layout
-argument-hint: <collection> <block-type>
-allowed-tools:
-  - mcp__nocobase__page_list
-  - mcp__nocobase__page_inspect
-  - mcp__nocobase__table_add
-  - mcp__nocobase__column_add
-  - mcp__nocobase__action_add
----
+# design-ui-block
+
+Design a NocoBase UI block layout
+
+Usage: `/design-ui-block <collection> <block-type>`
 
 # Design UI Block
 

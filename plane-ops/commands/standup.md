@@ -1,7 +1,8 @@
----
-description: Generate daily standup summary for current sprint
-argument-hint: <project>
----
+# standup
+
+Generate daily standup summary for current sprint
+
+Usage: `/standup <project>`
 
 # Standup
 

@@ -27,8 +27,7 @@ description: |
   <example>
   user: "Convert this markdown file to PDF"
   </example>
-model: sonnet
-tools: Bash, Read, Write, Glob, Grep
+model: claude-sonnet-5
 ---
 
 # Document Specialist

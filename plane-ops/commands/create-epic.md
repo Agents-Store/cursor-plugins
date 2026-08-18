@@ -1,7 +1,8 @@
----
-description: Create a Plane epic for a large feature spanning multiple sprints
-argument-hint: <project> <epic name> [--lead <user>] [--target <YYYY-MM-DD>]
----
+# create-epic
+
+Create a Plane epic for a large feature spanning multiple sprints
+
+Usage: `/create-epic <project> <epic name> [--lead <user>] [--target <YYYY-MM-DD>]`
 
 # Create Epic
 

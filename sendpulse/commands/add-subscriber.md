@@ -1,8 +1,8 @@
----
-description: Add a subscriber to an email addressbook
-argument-hint: <email> [--addressbook <id>] [--name <name>]
-allowed-tools: mcp__sendpulse__email_addressbooks_emails_create, mcp__sendpulse__email_addressbooks_list
----
+# add-subscriber
+
+Add a subscriber to an email addressbook
+
+Usage: `/add-subscriber <email> [--addressbook <id>] [--name <name>]`
 
 # Add Subscriber
 

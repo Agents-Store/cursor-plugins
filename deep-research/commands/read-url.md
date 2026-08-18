@@ -1,7 +1,8 @@
----
-description: Read and extract content from a URL with fallback
-argument-hint: <url> [--format <markdown|json|screenshot>]
----
+# read-url
+
+Read and extract content from a URL with fallback
+
+Usage: `/read-url <url> [--format <markdown|json|screenshot>]`
 
 # Read URL
 

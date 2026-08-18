@@ -1,10 +1,8 @@
----
-description: Batch delete multiple memories at once (up to 100)
-argument-hint: <memory_id1> <memory_id2> ...
-allowed-tools:
-  - batch_delete_memories
-  - get_all_memories
----
+# batch-delete
+
+Batch delete multiple memories at once (up to 100)
+
+Usage: `/batch-delete <memory_id1> <memory_id2> ...`
 
 # Batch Delete
 

@@ -1,10 +1,6 @@
----
-description: Show broadcast system status and active subscribers
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
----
+# broadcast-status
+
+Show broadcast system status and active subscribers
 
 # Broadcast Status
 

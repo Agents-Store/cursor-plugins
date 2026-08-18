@@ -1,7 +1,8 @@
----
-description: List, inspect, update, or delete Plane projects (complement to /setup-project)
-argument-hint: <action> [args...]
----
+# projects
+
+List, inspect, update, or delete Plane projects (complement to /setup-project)
+
+Usage: `/projects <action> [args...]`
 
 # Projects
 

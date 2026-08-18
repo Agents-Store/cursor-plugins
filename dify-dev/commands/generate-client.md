@@ -1,12 +1,8 @@
----
-description: Generate copy-paste curl scripts for a Dify operation (chat, completion, workflow, file upload, knowledge-base ingest/retrieve)
-argument-hint: '[operation]'
-allowed-tools:
-  - Read
-  - Write
-  - Skill
-  - AskUserQuestion
----
+# generate-client
+
+Generate copy-paste curl scripts for a Dify operation (chat, completion, workflow, file upload, knowledge-base ingest/retrieve)
+
+Usage: `/generate-client [operation]`
 
 # Generate Dify curl Client
 

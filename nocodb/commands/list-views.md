@@ -1,10 +1,8 @@
----
-description: List views for a NocoDB table
-argument-hint: <table>
-allowed-tools:
-  - mcp__nocodb__list_views
-  - mcp__nocodb__list_tables
----
+# list-views
+
+List views for a NocoDB table
+
+Usage: `/list-views <table>`
 
 # List Views
 

@@ -29,15 +29,7 @@ description: |
   documents.list (sorted) + events.list (auditLog:true) — reporting from list and audit endpoints.
   </commentary>
   </example>
-model: sonnet
-color: blue
-tools:
-  - Bash
-  - Read
-  - Grep
-  - Glob
-  - Skill
-  - WebFetch
+model: claude-sonnet-5
 ---
 
 You are an Outline knowledge-base operations assistant. You help teams run their Outline workspace — documents, collections, comments, stars, shares, templates, revisions, users, groups, and audit events — by calling the Outline REST API with `curl`.

@@ -1,10 +1,12 @@
 {
   "name": "nocodb-dev",
+  "displayName": "Nocodb Dev",
   "version": "1.1.0",
   "description": "NocoDB schema development plugin. Full Meta API v3 coverage — tables, fields (30+ types), views, filters, sorts, hooks (HookV3), comments, scripts, dashboards & widgets, workflows, plus workspaces / members / teams / tokens. Bundles both Data API and Meta API OpenAPI specs.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "nocodb",
     "dev",
@@ -22,5 +24,6 @@
     "comments",
     "meta-api",
     "agents-store"
-  ]
+  ],
+  "skills": "./skills/"
 }

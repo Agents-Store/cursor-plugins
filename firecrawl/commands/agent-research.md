@@ -1,10 +1,8 @@
----
-description: Start an autonomous web research agent
-argument-hint: <research-prompt> [--urls <url1,url2>]
-allowed-tools:
-  - mcp__firecrawl__agent
-  - mcp__firecrawl__agent_status
----
+# agent-research
+
+Start an autonomous web research agent
+
+Usage: `/agent-research <research-prompt> [--urls <url1,url2>]`
 
 # Agent Research
 

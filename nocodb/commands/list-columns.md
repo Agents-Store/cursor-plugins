@@ -1,10 +1,8 @@
----
-description: List columns in a NocoDB table
-argument-hint: <table>
-allowed-tools:
-  - mcp__nocodb__list_columns
-  - mcp__nocodb__list_tables
----
+# list-columns
+
+List columns in a NocoDB table
+
+Usage: `/list-columns <table>`
 
 # List Columns
 

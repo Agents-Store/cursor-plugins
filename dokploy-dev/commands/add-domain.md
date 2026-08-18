@@ -1,12 +1,8 @@
----
-description: Add a custom domain to a Dokploy application
-argument-hint: <domain> --app <app-name-or-id> [--port <port>] [--https]
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
-  - Agent
----
+# add-domain
+
+Add a custom domain to a Dokploy application
+
+Usage: `/add-domain <domain> --app <app-name-or-id> [--port <port>] [--https]`
 
 # Add Domain
 

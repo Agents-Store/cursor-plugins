@@ -1,7 +1,8 @@
----
-description: Break down a work item into smaller stories/tasks using INVEST criteria
-argument-hint: <work-item-identifier>
----
+# decompose
+
+Break down a work item into smaller stories/tasks using INVEST criteria
+
+Usage: `/decompose <work-item-identifier>`
 
 # Decompose
 

@@ -1,7 +1,8 @@
----
-description: List items from a Directus collection with optional filters
-argument-hint: <collection> [--filter <field=value>] [--sort <field>] [--limit <n>]
----
+# list-items
+
+List items from a Directus collection with optional filters
+
+Usage: `/list-items <collection> [--filter <field=value>] [--sort <field>] [--limit <n>]`
 
 # List Items
 

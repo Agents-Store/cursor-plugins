@@ -1,11 +1,8 @@
----
-description: Add a column to a NocoDB table
-argument-hint: <table> <column-name> <type> [--options <opt1,opt2>]
-allowed-tools:
-  - mcp__nocodb__create_column
-  - mcp__nocodb__list_tables
-  - mcp__nocodb__list_columns
----
+# create-column
+
+Add a column to a NocoDB table
+
+Usage: `/create-column <table> <column-name> <type> [--options <opt1,opt2>]`
 
 # Create Column
 

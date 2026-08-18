@@ -39,9 +39,7 @@ description: |
   <example>
   user: "List all corporate cards"
   </example>
-model: sonnet
-color: blue
-tools: Bash, Read, Write, Glob, Grep, mcp__monobank__*, mcp__privatbank__*
+model: claude-sonnet-5
 ---
 
 # Bank Account Manager

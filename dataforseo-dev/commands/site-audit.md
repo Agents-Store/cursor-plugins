@@ -1,11 +1,8 @@
----
-description: Run an on-page SEO audit for a URL using DataForSEO
-argument-hint: <url>
-allowed-tools:
-  - Read
-  - Bash
-  - Skill
----
+# site-audit
+
+Run an on-page SEO audit for a URL using DataForSEO
+
+Usage: `/site-audit <url>`
 
 # Site Audit
 

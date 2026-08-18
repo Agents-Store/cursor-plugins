@@ -1,10 +1,12 @@
 {
   "name": "n8n-provision",
+  "displayName": "N8n Provision",
   "version": "1.0.0",
   "description": "n8n instance provisioning plugin. Discover workflows from the official template library (9,166+ templates), GitHub repos, and community platforms, then analyze, import, and batch-deploy them to provision an n8n instance.",
   "author": {
     "name": "AGENTS.STORE"
   },
+  "license": "MIT",
   "keywords": [
     "n8n",
     "workflow",
@@ -16,5 +18,6 @@
     "batch",
     "community",
     "agents-store"
-  ]
+  ],
+  "skills": "./skills/"
 }

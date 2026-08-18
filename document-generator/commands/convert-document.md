@@ -1,11 +1,8 @@
----
-description: Convert between document formats (MD/DOCX/PDF/HTML/PPTX)
-argument-hint: <input-file> --to <format>
-allowed-tools:
-  - Bash
-  - Read
-  - Glob
----
+# convert-document
+
+Convert between document formats (MD/DOCX/PDF/HTML/PPTX)
+
+Usage: `/convert-document <input-file> --to <format>`
 
 # Convert Document
 

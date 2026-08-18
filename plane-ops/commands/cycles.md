@@ -1,7 +1,8 @@
----
-description: Manage Plane cycles beyond planning — list, archive, transfer, delete
-argument-hint: <action> <project> [args...]
----
+# cycles
+
+Manage Plane cycles beyond planning — list, archive, transfer, delete
+
+Usage: `/cycles <action> <project> [args...]`
 
 # Cycles
 

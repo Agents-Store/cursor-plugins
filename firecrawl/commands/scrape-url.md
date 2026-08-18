@@ -1,9 +1,8 @@
----
-description: Scrape a single URL
-argument-hint: <url> [--format <markdown|html>]
-allowed-tools:
-  - mcp__firecrawl__scrape_url
----
+# scrape-url
+
+Scrape a single URL
+
+Usage: `/scrape-url <url> [--format <markdown|html>]`
 
 # Scrape URL
 

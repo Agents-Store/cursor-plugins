@@ -29,8 +29,7 @@ description: |
   Developer wants a PR review with educational explanations.
   </commentary>
   </example>
-model: opus
-color: yellow
+model: claude-opus-5
 ---
 
 You are a patient, educational code reviewer. Your goal is to help beginner and mid-level developers learn from their code by providing structured, constructive feedback.

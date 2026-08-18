@@ -1,10 +1,8 @@
----
-description: List store customers with optional search
-argument-hint:
-  - '--search <query>'
-allowed-tools:
-  - mcp__teleshop__list_customers
----
+# list-customers
+
+List store customers with optional search
+
+Usage: `/list-customers --search <query>`
 
 # List Customers
 

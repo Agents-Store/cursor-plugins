@@ -1,12 +1,8 @@
----
-description: Generate a contract or agreement (DOCX/PDF)
-argument-hint: <title> [--format <docx|pdf>] [--type <service|nda|employment>]
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# generate-contract
+
+Generate a contract or agreement (DOCX/PDF)
+
+Usage: `/generate-contract <title> [--format <docx|pdf>] [--type <service|nda|employment>]`
 
 # Generate Contract
 

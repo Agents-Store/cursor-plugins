@@ -1,7 +1,8 @@
----
-description: Run a backlog grooming session — refine, estimate, and prioritize
-argument-hint: <project> [--limit <n>]
----
+# groom-backlog
+
+Run a backlog grooming session — refine, estimate, and prioritize
+
+Usage: `/groom-backlog <project> [--limit <n>]`
 
 # Groom Backlog
 

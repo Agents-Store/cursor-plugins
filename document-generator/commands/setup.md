@@ -1,11 +1,6 @@
----
-description: Set up document generator preferences — style, language, company profile, and logo.
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Glob
----
+# setup
+
+Set up document generator preferences — style, language, company profile, and logo.
 
 # Document Generator Setup
 

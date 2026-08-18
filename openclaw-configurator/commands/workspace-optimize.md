@@ -1,14 +1,8 @@
----
-description: Optimize a specific OpenClaw workspace file or all files at once, with security checks and optional openclaw.json editing
-argument-hint: <soul|agents|user|tools|heartbeat|identity|memory|bootstrap|boot|config|all>
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Glob
-  - Grep
----
+# workspace-optimize
+
+Optimize a specific OpenClaw workspace file or all files at once, with security checks and optional openclaw.json editing
+
+Usage: `/workspace-optimize <soul|agents|user|tools|heartbeat|identity|memory|bootstrap|boot|config|all>`
 
 # Workspace Optimize
 
