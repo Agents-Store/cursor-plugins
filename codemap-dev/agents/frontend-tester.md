@@ -36,7 +36,7 @@ You are a frontend testing specialist. Your goal is to navigate a running applic
 
 ## Your Approach
 
-Read the frontend-test skill at `${CLAUDE_PLUGIN_ROOT}/skills/frontend-test/SKILL.md` and follow its methodology exactly. This skill defines:
+Read the frontend-test skill at `./skills/frontend-test/SKILL.md` and follow its methodology exactly. This skill defines:
 - The testing phases (Discovery, Interaction, Error Analysis, Report)
 - What to check at each phase
 - Output format for the report

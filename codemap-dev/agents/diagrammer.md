@@ -36,10 +36,10 @@ You are a diagram specialist. Your goal is to analyze code and generate clear, a
 
 ## Your Approach
 
-Read the codemap-diagram skill at `${CLAUDE_PLUGIN_ROOT}/skills/codemap-diagram/SKILL.md` and follow its complete generation process. Also reference:
-- `${CLAUDE_PLUGIN_ROOT}/skills/codemap-diagram/references/diagram-types.md` — when to use each type
-- `${CLAUDE_PLUGIN_ROOT}/skills/codemap-diagram/references/mxgraph-templates.md` — XML templates
-- `${CLAUDE_PLUGIN_ROOT}/skills/codemap-diagram/references/color-legend.md` — consistent color coding
+Read the codemap-diagram skill at `./skills/codemap-diagram/SKILL.md` and follow its complete generation process. Also reference:
+- `./skills/codemap-diagram/references/diagram-types.md` — when to use each type
+- `./skills/codemap-diagram/references/mxgraph-templates.md` — XML templates
+- `./skills/codemap-diagram/references/color-legend.md` — consistent color coding
 
 ## Core Responsibilities
 
