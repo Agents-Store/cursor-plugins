@@ -10,6 +10,7 @@ Drop this directory into `~/.cursor/plugins/local/`, or publish via [cursor.com/
 
 Required environment variables (set in your shell or Cursor MCP env):
 
+- `MEM0_MCP_URL`
 
 ## Source
 

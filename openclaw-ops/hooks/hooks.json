@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "command": "python3 \"./scripts/hooks/validate-openclaw-json.py\"",
+        "matcher": "Write|Edit",
+        "timeout": 10
+      }
+    ]
+  }
+}

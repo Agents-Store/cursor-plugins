@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "mem0": {
-      "url": "https://my-mcp.mcpware.net/mcp/mem0-user"
+      "url": "${env:MEM0_MCP_URL}"
     }
   }
 }
