@@ -29,8 +29,8 @@
       "description": "DataForSEO data analysis plugin. Keyword research, competitor analysis, backlink auditing, SERP monitoring, on-page audits, content analysis, and AI optimization via 70+ MCP tools."
     },
     {
-      "name": "deep-research",
-      "source": "./deep-research",
+      "name": "deep-research-ops",
+      "source": "./deep-research-ops",
       "description": "Deep Research plugin. Comprehensive web research using 4 providers (Exa, Firecrawl, Jina, Perplexity) with capability-based CONNECTORS pattern and automatic FALLBACK chains. Search, scrape, crawl, extract — each action tries multiple providers until one succeeds."
     },
     {
@@ -49,8 +49,8 @@
       "description": "Directus development plugin. Knowledge base for working with Directus MCP tools (12 tools), REST API, and @directus/sdk. Covers collections, items, fields, relations, files, flows, operations, and schema design."
     },
     {
-      "name": "document-generator",
-      "source": "./document-generator",
+      "name": "document-generator-ops",
+      "source": "./document-generator-ops",
       "description": "Professional document generator. Creates proposals, invoices, estimates/quotations, reports, presentations, contracts, NDAs, and certificates of completion in PDF, DOCX, and PPTX formats. Supports multi-language documents with embedded fonts (Cyrillic, Latin). First-use onboarding for style preferences, company profiles, and logo management. Converts between MD, DOCX, PDF, HTML, and PPTX."
     },
     {
@@ -61,7 +61,7 @@
     {
       "name": "firecrawl",
       "source": "./firecrawl",
-      "description": "Firecrawl web scraping and search plugin. Scrape URLs, crawl sites, search the web, map site structures, extract structured data, batch scraping, autonomous research agents, and cloud browser sessions via MCP tools."
+      "description": "DEPRECATED — superseded by web-search-dev, which covers the current Firecrawl MCP tools and REST API v2 alongside Exa, Perplexity, Jina and Context7; this plugin teaches tool names the official Firecrawl MCP server does not expose. Firecrawl web scraping and search plugin. Scrape URLs, crawl sites, search the web, map site structures, extract structured data, batch scraping, autonomous research agents, and cloud browser sessions via MCP tools."
     },
     {
       "name": "flask-dev",
@@ -104,19 +104,19 @@
       "description": "Media hosting operations plugin. Upload images by public URL to MinIO-based media hosting via the uploadImageToMinio MCP tool."
     },
     {
-      "name": "mem0",
-      "source": "./mem0",
+      "name": "mem0-ops",
+      "source": "./mem0-ops",
       "description": "Mem0 memory management plugin. Store, search, update, and organize memories with semantic search, batch operations, file attachments, and change history tracking via MCP tools."
     },
     {
-      "name": "multi-bank",
-      "source": "./multi-bank",
+      "name": "multi-bank-ops",
+      "source": "./multi-bank-ops",
       "description": "Multi-Bank Account Manager with broadcast architecture pattern. Aggregates financial data from Monobank and PrivatBank via MCP tools, broadcasts balance updates and budget alerts to subscribed components, categorizes transactions, and exports financial reports in CSV/PDF."
     },
     {
       "name": "n8n",
       "source": "./n8n",
-      "description": "n8n workflow automation plugin. Manage workflows, execute automations, configure nodes, handle credentials, monitor executions, expression syntax, node configuration patterns, and code node best practices via MCP tools."
+      "description": "DEPRECATED — superseded by n8n-dev (building, validating and debugging workflows against both current n8n MCP servers) and n8n-provision (template discovery and batch import). Use those two instead. n8n workflow automation plugin. Manage workflows, execute automations, configure nodes, handle credentials, monitor executions, expression syntax, node configuration patterns, and code node best practices via MCP tools."
     },
     {
       "name": "n8n-dev",
@@ -141,7 +141,7 @@
     {
       "name": "nocobase",
       "source": "./nocobase",
-      "description": "NocoBase platform development plugin. Expert guidance on collections, fields, relations, workflows, UI blocks, plugin development, MCP-powered page management, data operations, and collection inspection for NocoBase applications."
+      "description": "DEPRECATED — superseded by nocobase-dev, which bundles the official nocobase/skills library and works through the nb CLI and REST API. The MCP server this plugin wires has no counterpart in nocobase-dev yet. NocoBase platform development plugin. Expert guidance on collections, fields, relations, workflows, UI blocks, plugin development, MCP-powered page management, data operations, and collection inspection for NocoBase applications."
     },
     {
       "name": "nocobase-dev",
@@ -151,7 +151,7 @@
     {
       "name": "nocodb",
       "source": "./nocodb",
-      "description": "NocoDB database development plugin. Manage tables, records, columns, views, relations, formulas, rollups, lookups, filtering, sorting, search, aggregation, webhooks, and filter/sort management via MCP tools."
+      "description": "DEPRECATED — superseded by nocodb-dev (schema, fields, views, Meta API) and nocodb-ops (records, search, views, reports), which teach the current NocoDB MCP tool names; this plugin teaches tool names the server no longer exposes. NocoDB database development plugin. Manage tables, records, columns, views, relations, formulas, rollups, lookups, filtering, sorting, search, aggregation, webhooks, and filter/sort management via MCP tools."
     },
     {
       "name": "nocodb-dev",
@@ -194,8 +194,8 @@
       "description": "PostgreSQL schema design for external database connections. Compatible SQL patterns for NocoDB and NocoBase — table creation, column types, relations, indexes, and anti-patterns."
     },
     {
-      "name": "project-template-creator",
-      "source": "./project-template-creator",
+      "name": "project-template-dev",
+      "source": "./project-template-dev",
       "description": "Manage project template hierarchy with unified improvement workflow. Route fixes to plugins or parent templates automatically, quick-capture ideas for later, and run unified end-of-session reviews covering both plugins and templates."
     },
     {
@@ -204,8 +204,8 @@
       "description": "restic backup plugin for Agents Store. Set up encrypted daily backups on any Linux server to S3-compatible storage (Cloudflare R2): server recon + restic install, auto-discovery of all Docker volumes/mounts and databases, R2 repository init, a partial-failure-tolerant backup script with logical DB dumps and retention, timezone-aware systemd/cron scheduling, verification, monitoring/dead-man's-switch, and disaster recovery. File-based knowledge, no MCP, no stored credentials."
     },
     {
-      "name": "sendpulse",
-      "source": "./sendpulse",
+      "name": "sendpulse-ops",
+      "source": "./sendpulse-ops",
       "description": "Sendpulse multi-channel marketing plugin. Manage chatbots (Telegram, WhatsApp, Instagram, Messenger, Viber), CRM (contacts, deals, pipelines, boards, tasks), email campaigns, templates, addressbooks, and SMTP transactional email via 133+ MCP tools."
     },
     {
@@ -249,8 +249,8 @@
       "description": "Microsoft Teams SDK dev plugin for Agents Store. TypeScript-first guidance for building Teams bots, message extensions, tabs, dialogs, and AI agents using @microsoft/teams.* packages — covers the App framework, activity routing, Adaptive Cards, AI/MCP/A2A, Microsoft Graph, SSO, sovereign clouds, the Teams CLI, devtools, sideloading, and end-to-end scenarios."
     },
     {
-      "name": "teleshop",
-      "source": "./teleshop",
+      "name": "teleshop-ops",
+      "source": "./teleshop-ops",
       "description": "Teleshop store management plugin. Manage products, orders, categories, attributes, customers, webhooks, and addons for your Telegram store via 50 MCP tools."
     },
     {
