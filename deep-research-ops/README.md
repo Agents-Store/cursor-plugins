@@ -6,12 +6,6 @@ Deep Research plugin. Comprehensive web research using 4 providers (Exa, Firecra
 
 Drop this directory into `~/.cursor/plugins/local/`, or publish via [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
 
-## MCP servers
-
-Required environment variables (set in your shell or Cursor MCP env):
-
-- `MCPWARE_MCP_URL`
-
 ## Source
 
 Auto-generated from the canonical Claude Code plugin. Do not edit directly.

@@ -34,11 +34,6 @@
       "description": "Deep Research plugin. Comprehensive web research using 4 providers (Exa, Firecrawl, Jina, Perplexity) with capability-based CONNECTORS pattern and automatic FALLBACK chains. Search, scrape, crawl, extract — each action tries multiple providers until one succeeds."
     },
     {
-      "name": "dify-dev",
-      "source": "./dify-dev",
-      "description": "Dify API dev plugin for Agents Store. Complete coverage of the Dify App Service API (chat, completion, workflows, conversations, files, audio, annotations) and the Knowledge Base / Datasets API — auth, endpoints, streaming events, curl examples, and troubleshooting."
-    },
-    {
       "name": "dify-ops",
       "source": "./dify-ops",
       "description": "Dify self-hosted update operations plugin. Pull upstream changes, merge into local dev branch, sync .env variables, detect Docker project names, and rebuild containers for Dify Docker deployments."
@@ -102,16 +97,6 @@
       "name": "media-hosting-ops",
       "source": "./media-hosting-ops",
       "description": "Media hosting operations plugin. Upload images by public URL to MinIO-based media hosting via the uploadImageToMinio MCP tool."
-    },
-    {
-      "name": "mem0-ops",
-      "source": "./mem0-ops",
-      "description": "Mem0 memory management plugin. Store, search, update, and organize memories with semantic search, batch operations, file attachments, and change history tracking via MCP tools."
-    },
-    {
-      "name": "multi-bank-ops",
-      "source": "./multi-bank-ops",
-      "description": "Multi-Bank Account Manager with broadcast architecture pattern. Aggregates financial data from Monobank and PrivatBank via MCP tools, broadcasts balance updates and budget alerts to subscribed components, categorizes transactions, and exports financial reports in CSV/PDF."
     },
     {
       "name": "n8n",
