@@ -15,71 +15,10 @@
         "matcher": "startup|resume|clear|compact"
       }
     ],
-    "preToolUse": [
-      {
-        "command": "node \"./hooks/pretooluse-skill-inject.mjs\"",
-        "matcher": "Read|Edit|Write|Bash",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/pretooluse-subagent-spawn-observe.mjs\"",
-        "matcher": "Agent",
-        "timeout": 5
-      }
-    ],
-    "beforeSubmitPrompt": [
-      {
-        "command": "node \"./hooks/user-prompt-submit-telemetry.mjs\"",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/user-prompt-submit-skill-inject.mjs\"",
-        "timeout": 5
-      }
-    ],
     "postToolUse": [
       {
-        "command": "node \"./hooks/posttooluse-shadcn-font-fix.mjs\"",
-        "matcher": "Bash",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/posttooluse-verification-observe.mjs\"",
-        "matcher": "Bash",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/posttooluse-telemetry.mjs\"",
-        "matcher": "Bash",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/posttooluse-bash-chain.mjs\"",
-        "matcher": "Bash",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/posttooluse-validate.mjs\"",
-        "matcher": "Write|Edit",
-        "timeout": 5
-      },
-      {
-        "command": "node \"./hooks/posttooluse-telemetry.mjs\"",
-        "matcher": "Write|Edit",
-        "timeout": 5
-      }
-    ],
-    "subagentStart": [
-      {
-        "command": "node \"./hooks/subagent-start-bootstrap.mjs\"",
-        "matcher": ".+",
-        "timeout": 5
-      }
-    ],
-    "subagentStop": [
-      {
-        "command": "node \"./hooks/subagent-stop-sync.mjs\"",
-        "matcher": ".+",
+        "command": "node \"./hooks/posttooluse-skill-telemetry.mjs\"",
+        "matcher": "Skill",
         "timeout": 5
       }
     ],
