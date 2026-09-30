@@ -12,8 +12,8 @@ Required environment variables (set in your shell or Cursor MCP env):
 
 - `DIRECTUS_ADMIN_TOKEN`
 - `NEXT_PUBLIC_DIRECTUS_URL`
+- `TRIGGER_ACCESS_TOKEN`
 - `TRIGGER_API_URL`
-- `TRIGGER_SECRET_KEY`
 
 ## Source
 
