@@ -1,4 +1,17 @@
 {
   "version": 1,
-  "hooks": {}
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "cat \"./hooks/session-start.txt\""
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "python3 \"./hooks/plane_guard.py\"",
+        "matcher": "mcp__.*[Pp]lane.*__(project|cycle|module|milestone|initiative|state|label|workitem|workitem_type|workitem_property|workitem_comment|workitem_link|workitem_relation|workitem_attachment|work_log|intake|page|release|release_tag|release_label|customer|customer_property|customer_request|collection|template|project_estimate)$|mcp__.*[Pp]lane.*__(delete|remove|detach|archive)_",
+        "timeout": 10
+      }
+    ]
+  }
 }

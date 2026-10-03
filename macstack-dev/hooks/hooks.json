@@ -4,7 +4,7 @@
     "sessionStart": [
       {
         "command": "python3 \"./hooks/session-start-macstack-stale.py\"",
-        "matcher": "startup|resume|clear",
+        "matcher": "startup|resume|clear|compact|fork",
         "timeout": 15
       }
     ],
