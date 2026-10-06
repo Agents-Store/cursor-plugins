@@ -164,6 +164,11 @@
       "description": "SEO development plugin for Agents Store. Technical SEO, structured data (JSON-LD), metadata API, Core Web Vitals, sitemaps, and content optimization patterns for Next.js App Router."
     },
     {
+      "name": "session-doctor-dev",
+      "source": "./session-doctor-dev",
+      "description": "Read-only audit of a Claude Code session: where it runs, what context it loaded, which model and effort it used, the skills it invoked, every HTTP request with its status code, and the status of each API token seen in the session — with concrete fixes."
+    },
+    {
       "name": "sqlalchemy-dev",
       "source": "./sqlalchemy-dev",
       "description": "SQLAlchemy dev plugin for Agents Store. Typed SQLAlchemy 2.0 style (Mapped, mapped_column, select) with a SQLAlchemy 2.1 section: model definition patterns, relationship mapping, query optimization, Alembic migrations, and troubleshooting."
