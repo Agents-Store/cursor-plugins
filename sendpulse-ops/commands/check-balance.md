@@ -8,6 +8,8 @@ Usage: `/check-balance --detailed`
 
 Check Sendpulse account balance and available email credits.
 
+Method and rules: the `sendpulse-ops:email-senders-config` skill.
+
 ## Arguments
 Format: `[--detailed]`
 - --detailed: Show detailed balance breakdown (optional)

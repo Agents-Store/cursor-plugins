@@ -8,6 +8,8 @@ Usage: `/my-work [--project name] [--state name] [--cycle current|next|all] [--l
 
 Show open work items assigned to the current user across all projects, or filtered.
 
+Method and rules: the `plane-ops:work-items` skill.
+
 ## Arguments
 
 Format: `[flags...]`

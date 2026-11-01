@@ -8,6 +8,8 @@ Usage: `/find-contact <email>`
 
 Find a CRM contact by email and show their details and deals.
 
+Method and rules: the `sendpulse-ops:crm-contacts` skill.
+
 ## Arguments
 Format: `<email>`
 - email: The email address to search for

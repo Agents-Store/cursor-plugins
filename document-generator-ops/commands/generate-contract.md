@@ -6,6 +6,8 @@ Usage: `/generate-contract <title> [--format <docx|pdf>] [--type <service|nda|em
 
 # Generate Contract
 
+Follow the `document-rules` skill (`./skills/document-rules/SKILL.md`) and the `document-generator` skill (`./skills/document-generator/SKILL.md`): the first holds the mandatory rules, the second the generation process. Read both before Step 1.
+
 Generate a professional contract with numbered clauses, party details, and signature blocks.
 
 ## Arguments

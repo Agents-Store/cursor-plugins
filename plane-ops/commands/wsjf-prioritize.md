@@ -8,6 +8,8 @@ Usage: `/wsjf-prioritize <project>`
 
 Prioritize backlog items using Weighted Shortest Job First scoring — balancing value, urgency, risk, and effort.
 
+Method and rules: the `plane-ops:backlog-management` skill.
+
 ## Arguments
 Format: `<project>`
 - project: Project name or identifier (required)

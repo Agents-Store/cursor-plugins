@@ -8,6 +8,8 @@ Usage: `/add-subscriber <email> [--addressbook <id>] [--name <name>]`
 
 Add a subscriber to an email addressbook (mailing list).
 
+Method and rules: the `sendpulse-ops:email-addressbooks` skill.
+
 ## Arguments
 Format: `<email> [--addressbook <id>] [--name <name>]`
 - email: Subscriber email address

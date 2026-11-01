@@ -2,7 +2,7 @@
 
 Give the client the documents to read and answer — a self-contained HTML file, a published page, or both — and take their answers back
 
-Usage: `/review --read | --artifact | --only <sections> | --skip <sections> | (empty = the whole package)`
+Usage: `/review [--read | --artifact | --only <sections> | --skip <sections> | (empty = the whole package)]`
 
 Use `macstack-dev:client-package`.
 

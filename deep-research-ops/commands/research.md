@@ -6,7 +6,7 @@ Usage: `/research <topic> [--type <competitive|market|technical|person|topic|new
 
 # Deep Research
 
-Execute the full 7-step research algorithm from the `deep-research` skill. See CONNECTORS.md for provider mapping and fallback chains.
+Execute the full 7-step research algorithm from the `deep-research` skill: read `./skills/deep-research/SKILL.md` first and follow it. See CONNECTORS.md for provider mapping and fallback chains.
 
 ## Steps
 

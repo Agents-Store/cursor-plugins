@@ -6,6 +6,8 @@ Usage: `/search-items <collection> <query>`
 
 # Search Items
 
+Follow the `item-operations` skill (`./skills/item-operations/SKILL.md`) for the query syntax, filters and batch rules; read it before the first call.
+
 ## Arguments
 
 - `collection` (required) — Collection name

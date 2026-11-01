@@ -8,6 +8,8 @@ Usage: `/backup-now [--dry-run]`
 
 Trigger an immediate, off-schedule backup using the existing configured script — useful before a risky change or to confirm a freshly-set-up backup works.
 
+Method and rules: the `restic-dev:backup-script` skill.
+
 Parse `[--dry-run]` from "$ARGUMENTS".
 
 ## Process

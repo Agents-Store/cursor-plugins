@@ -6,6 +6,8 @@ Usage: `/generate-presentation <title> [--slides <number>] [--theme <corporate|m
 
 # Generate Presentation
 
+Follow the `document-rules` skill (`./skills/document-rules/SKILL.md`) and the `document-generator` skill (`./skills/document-generator/SKILL.md`): the first holds the mandatory rules, the second the generation process. Read both before Step 1.
+
 Generate a professional PowerPoint presentation with title slide, agenda, content slides, and summary.
 
 ## Arguments
