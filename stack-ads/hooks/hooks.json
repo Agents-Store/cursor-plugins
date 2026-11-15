@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "command": "python3 \"./hooks/guard.py\"",
+        "matcher": "Bash",
+        "timeout": 10
+      },
+      {
+        "command": "python3 \"./hooks/guard.py\"",
+        "matcher": "mcp__plugin_stack-ads_(meta-ads|tiktok-ads|google-ads)__.*",
+        "timeout": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mcpServers": {
+    "firecrawl": {
+      "url": "https://mcp.firecrawl.dev/v2/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:FIRECRAWL_API_KEY}"
+      }
+    },
+    "apify": {
+      "url": "https://mcp.apify.com",
+      "headers": {
+        "Authorization": "Bearer ${env:APIFY_TOKEN}"
+      }
+    },
+    "dataforseo": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "dataforseo-mcp-server@3"
+      ],
+      "env": {
+        "DATAFORSEO_USERNAME": "${env:DATAFORSEO_USERNAME}",
+        "DATAFORSEO_PASSWORD": "${env:DATAFORSEO_PASSWORD}"
+      }
+    },
+    "google-ads": {
+      "command": "pipx",
+      "args": [
+        "run",
+        "--spec",
+        "google-ads-mcp==0.0.6",
+        "google-ads-mcp"
+      ],
+      "env": {
+        "GOOGLE_CLOUD_PROJECT": "${env:GOOGLE_CLOUD_PROJECT}",
+        "GOOGLE_APPLICATION_CREDENTIALS": "${env:GOOGLE_APPLICATION_CREDENTIALS}"
+      }
+    },
+    "meta-ads": {
+      "url": "https://mcp.facebook.com/ads",
+      "headers": {
+        "Authorization": "Bearer ${env:META_ACCESS_TOKEN}"
+      }
+    },
+    "tiktok-ads": {
+      "url": "https://business-api.tiktok.com/open_mcp/tt-ads-mcp-layer"
+    }
+  }
+}
